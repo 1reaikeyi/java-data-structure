@@ -16,11 +16,18 @@ public class table {
 
     Node head = null;
 
+    /**
+     *    head----------------------->node1
+     *       |>--------node2------------|
+     * @param value
+     */
     public void pushHead(int value) {
-        // 创建一个新节点，将其 next 指向当前的 head
-        Node newNode = new Node(value, head);
-        // 更新 head 为新节点
-        head = newNode;
+
+       //第一个
+        head = new Node(value, null);
+        //第二个
+        head  = new Node(value, head);
+
     }
 
     public void pushBack(int value) {

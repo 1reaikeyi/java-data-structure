@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/fube/fube.iml" filepath="$PROJECT_DIR$/fube/fube.iml" />
       <module fileurl="file://$PROJECT_DIR$/shujujiegou/shujujiegou.iml" filepath="$PROJECT_DIR$/shujujiegou/shujujiegou.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shujusuanfa1/shujusuanfa1.iml" filepath="$PROJECT_DIR$/shujusuanfa1/shujusuanfa1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shujusuanfa/shujusuanfa.iml" filepath="$PROJECT_DIR$/shujusuanfa/shujusuanfa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/数据结构.iml" filepath="$PROJECT_DIR$/.idea/数据结构.iml" />
     </modules>
   </component>
