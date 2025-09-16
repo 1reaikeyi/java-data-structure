@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\a.java\maven3.9.9\apache-maven-3.9.9" />
+        <option name="localRepository" value="D:\a.java\maven3.9.9\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\a.java\maven3.9.9\apache-maven-3.9.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="31xSugfluiZKAZdb4miB0FlIdtn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/a.maven-java/java项目_base/数据结构",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/fube/src/Main.java",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChainTest.executor": "Run",
+    "应用程序.Test.executor": "Run",
+    "应用程序.test.executor": "Run",
+    "应用程序.xunxubiao_泛型.Test.executor": "Run",
+    "应用程序.顺序表泛型.test.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="应用程序.顺序表泛型.test">
+    <configuration name="ChainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="head链表.ChainTest" />
+      <module name="fube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.Test" />
+      <module name="fube" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="顺序表泛型.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="顺序表泛型.test" />
+      <module name="shujujiegou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="顺序表泛型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="顺序表.test" />
+      <module name="shujujiegou" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="顺序表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xunxubiao_泛型.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xunxubiao_泛型.Test" />
+      <module name="fube" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xunxubiao_泛型.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.顺序表泛型.test" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.ChainTest" />
+        <item itemvalue="应用程序.xunxubiao_泛型.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="" />
+      <created>1744777399177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744777399177</updated>
+      <workItem from="1756464455482" duration="22000" />
+      <workItem from="1757398216950" duration="11127000" />
+      <workItem from="1757484155646" duration="11852000" />
+      <workItem from="1757578129295" duration="8498000" />
+      <workItem from="1757603516758" duration="515000" />
+      <workItem from="1757604738036" duration="29000" />
+      <workItem from="1757605304307" duration="2000" />
+      <workItem from="1757605314641" duration="20000" />
+      <workItem from="1757605584399" duration="41000" />
+      <workItem from="1757605794050" duration="1000" />
+      <workItem from="1757606148442" duration="6000" />
+      <workItem from="1757651715250" duration="1277000" />
+      <workItem from="1757997506987" duration="13224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
