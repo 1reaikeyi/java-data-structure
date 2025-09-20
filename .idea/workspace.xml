@@ -5,50 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="修改链表">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oneObject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/桟/桟.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/fube.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/head链表/Chain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/head链表/ChainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/list/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/list/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/list/usee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/xunxubiao_泛型/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/xunxubiao_泛型/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fube/src/xunxubiao_泛型/usee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/head链表/table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/head链表/table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/head链表/测试.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/单例/one.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/单例/单一test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/单例2/OneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/单例2/one.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表2/表$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表2/表.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表/Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/链表/Table$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/链表/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/链表/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/顺序表/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/顺序表/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/顺序表/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/顺序表/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/顺序表泛型/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shujujiegou/顺序表泛型/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/head链表/table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/head链表/测试.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/单例/one.java" beforeDir="false" afterPath="$PROJECT_DIR$/oneObject/src/main/java/单例/one.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/单例/单一test.java" beforeDir="false" afterPath="$PROJECT_DIR$/oneObject/src/main/java/单例/单一test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/单例2/OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/oneObject/src/main/java/单例2/OneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/单例2/one.java" beforeDir="false" afterPath="$PROJECT_DIR$/oneObject/src/main/java/单例2/one.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/双向表2/表.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/双向表sentinel/表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/链表/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/链表/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/顺序表/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/顺序表/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表泛型/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/shujujiegou/src/顺序表泛型/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/shujujiegou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pai/pai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/双向表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/双向表/表.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/双向表sentinel/表.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表sentinel/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/链表sentinel/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表泛型/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表泛型/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujujiegou/src/顺序表泛型/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表泛型/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/shujusuanfa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/table/table.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/冒泡排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/冒泡排序/冒泡排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/基数排序/BasicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/基数排序/BasicSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/希尔排序/fuben.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/希尔排序/fuben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/希尔排序/希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/希尔排序/希尔排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/归并排序/归并排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/插入排序/插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/插入排序/插入排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/选择排序/选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/选择排序/选择排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shujusuanfa/src/重写/Chongxie.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/重写/Chongxie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +45,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -85,44 +66,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/java项目_base/数据结构&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/java项目_base/数据结构/oneObject/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.双向表.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/a.maven-java/java项目_base/数据结构",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/table/src/Main.java",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChainTest.executor": "Run",
+    "应用程序.Test.executor": "Run",
+    "应用程序.test.executor": "Run",
+    "应用程序.xunxubiao_泛型.Test.executor": "Run",
+    "应用程序.链表.Test.executor": "Run",
+    "应用程序.链表sentinel.Test.executor": "Run",
+    "应用程序.顺序表泛型.test.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.链表sentinel.Test">
+}]]></component>
+  <component name="RunManager" selected="应用程序.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.Test" />
-      <module name="fube" />
+      <option name="MAIN_CLASS_NAME" value="双向表sentinel.Test" />
+      <module name="table" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="双向表sentinel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="链表.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="链表.Test" />
-      <module name="shujujiegou" />
+      <module name="桟" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="链表.*" />
@@ -133,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="顺序表泛型.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="顺序表泛型.test" />
-      <module name="shujujiegou" />
+    <configuration name="双向表.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双向表.test" />
+      <module name="table" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="顺序表泛型.*" />
+          <option name="PATTERN" value="双向表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,7 +136,7 @@
     </configuration>
     <configuration name="链表sentinel.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="链表sentinel.Test" />
-      <module name="shujujiegou" />
+      <module name="桟" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="链表sentinel.*" />
@@ -161,7 +149,7 @@
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="顺序表.test" />
-      <module name="shujujiegou" />
+      <module name="桟" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="顺序表.*" />
@@ -174,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="Application.双向表.test" />
         <item itemvalue="应用程序.链表sentinel.Test" />
         <item itemvalue="应用程序.链表.Test" />
         <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.顺序表泛型.test" />
-        <item itemvalue="应用程序.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +203,7 @@
       <workItem from="1758173751862" duration="2059000" />
       <workItem from="1758258396710" duration="2712000" />
       <workItem from="1758270201234" duration="6710000" />
-      <workItem from="1758346214918" duration="2601000" />
+      <workItem from="1758346214918" duration="12398000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -241,7 +229,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758211464921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改链表">
+      <option name="closed" value="true" />
+      <created>1758350219270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758350219270</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改链表">
+      <option name="closed" value="true" />
+      <created>1758350294232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758350294232</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

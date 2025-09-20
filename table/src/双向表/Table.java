@@ -1,6 +1,6 @@
 package 双向表;
 
-public class 表 {
+public class Table {
     private static class Node {
       Node pre;
       int value;
@@ -14,9 +14,9 @@ public class 表 {
     private int size = 0;
     private Node head;
     private Node tail;
-    public 表() {
-        head = new Node(null,0,null);
-        tail = new Node(null,10000,null);
+    public Table() {
+        head = new Node(null,10000,null);
+        tail = new Node(null,11111,null);
         head.next = tail;
         tail.pre = head;
     }
@@ -26,7 +26,6 @@ public class 表 {
         tail.pre = head;
         size = 0;
     }
-
     // 判断链表是否为空的方法
     public boolean isEmpty() {
         return head.next == tail;
@@ -51,19 +50,26 @@ public class 表 {
         next.pre = newNode;
         size++;
     }
-    public void pushHead(int value){
-        insert(0,value);
+    public void addHead(int value){
+//        insert(0,value);
+        Node after = head.next;
+        Node newNode = new Node(head,value,after);
+        head.next = newNode;
+        after.pre = newNode;
+        size++;
+
     }
-    public void pushBack(int value){
+    public void addBack(int value){
 //        insert(size,value);
         Node prelast = tail.pre;
-        prelast.next = new Node(prelast,value,tail);
-        tail.pre = prelast.next;
+        Node newNode = new Node(prelast,value,tail);
+        prelast.next = newNode;
+        tail.pre = newNode;
+
         size++;
     }
     public void remove(int index){
         Node p = findIndex(index-1);
-
         if (p == null||p.next == tail){
             throw new RuntimeException(String.format("index:%d不合法", index));
         }
@@ -76,7 +82,12 @@ public class 表 {
         size--;
     }
     public void popHead(){
-       remove(0);
+//       remove(0);
+       Node remove = head.next;
+       Node newNode = remove.next;
+       head.next = newNode;
+       newNode.pre = head;
+       size--;
 
     }
     public void popBack(){
@@ -90,7 +101,7 @@ public class 表 {
    public  void kai(){
         Node cur = head.next;
         while(cur!=tail){
-            System.out.println(cur.value);
+            System.out.print(cur.value+"\t");
             cur = cur.next;
         }
        System.out.println("size = " + size);

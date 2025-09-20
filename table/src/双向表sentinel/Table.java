@@ -1,6 +1,6 @@
 package 双向表sentinel;
 
-public class 表 {
+public class Table {
     private static class Node{
         Node pre;
         int value;
@@ -13,13 +13,22 @@ public class 表 {
     }
     private int size;
     private Node sentinel;
-    public 表() {
+
+    public Table() {
         size = 0;
-        sentinel = new Node(null,-100,null);
+        sentinel = new Node(null,10000,null);
         sentinel.next = sentinel;
         sentinel.pre = sentinel;
     }
-    public void addFirst(int value){
+    public void clear(){
+        sentinel.next = sentinel;
+        sentinel.pre = sentinel;
+        size = 0;
+    }
+    public boolean isClear(){
+        return sentinel.next == sentinel||sentinel.pre == sentinel;
+    }
+    public void addHead(int value){
         Node a = sentinel;
         Node b = sentinel.next;
         Node newNode = new Node(a,value,b);
@@ -35,48 +44,14 @@ public class 表 {
         b.pre = newNode;
         size++;
     }
-    public void clear(){
-        sentinel.next = sentinel;
-        sentinel.pre = sentinel;
-        size = 0;
-    }
-    public boolean isClear(){
-        return sentinel.next == sentinel||sentinel.pre == sentinel;
-    }
-    public void removeFirst(){
-        if (sentinel.next == sentinel){
-            throw new RuntimeException("链表为空");
-        }
-        Node a = sentinel.next;
-        Node b = a.next;
-        sentinel.next = b;
-        b.pre = sentinel;
-        size--;
-    }
-    public void removeLast(){
-        if (sentinel.next == sentinel){
-            throw new RuntimeException("链表为空");
-        }
-        Node a = sentinel.pre;
-        Node b = a.pre;
-        sentinel.pre = b;
-        b.next = sentinel;
-        size--;
-    }
-    public void kai(){
-        if (sentinel.next == sentinel){
-            System.out.println("链表为空");
-            return;
-        }
-        Node a = sentinel.next;
-        while (a!=sentinel){
-            System.out.println(a.value);
-            a = a.next;
-        }
-    }
+
     public Node findIndex(int index){
-        if (sentinel.next == sentinel){
-            System.out.println("链表为空");
+//        if (sentinel.next == sentinel){
+//            System.out.println("链表为空");
+//        }
+
+        if (index == -1) {
+            return sentinel;
         }
         int i = -1;
         for (Node p = sentinel.next;p!=sentinel;i++,p = p.next){
@@ -91,13 +66,12 @@ public class 表 {
         if (pre == null){
             throw new RuntimeException(String.format("index:%d不合法", index));
         }
-        //   pre
+
         Node next = pre.next;
         Node newNode = new Node(pre,value,next);
         pre.next = newNode;
         next.pre = newNode;
         size++;
-
     }
     public void remove(int index){
         Node pre = findIndex(index-1);
@@ -105,9 +79,43 @@ public class 表 {
             throw new RuntimeException(String.format("index:%d不合法", index));
         }
         Node remove = pre.next;
-        pre.next = remove.next;
-        remove.next.pre = pre;
+        Node newNode = remove.next;
+       pre.next = newNode;
+        newNode.pre = pre;
         size--;
+    }
+
+    public void popHead(){
+        if (sentinel.next == sentinel){
+            throw new RuntimeException("链表为空");
+        }
+        Node remove = sentinel.next;
+        Node c = remove.next;
+        sentinel.next = c;
+        c.pre = sentinel;
+        size--;
+    }
+    public void popLast(){
+        if (sentinel.next == sentinel){
+            throw new RuntimeException("链表为空");
+        }
+        Node a = sentinel.pre;
+        Node b = a.pre;
+        sentinel.pre = b;
+        b.next = sentinel;
+        size--;
+    }
+    public void printList(){
+        if (sentinel.next == sentinel||sentinel.pre == sentinel){
+            System.out.println("链表为空");
+            return;
+        }
+        Node a = sentinel.next;
+        while (a!=sentinel){
+            System.out.print(a.value+"\t");
+            a = a.next;
+        }
+        System.out.println("size = "+size);
     }
     public void popValue(int value){
         Node pre = sentinel;
