@@ -7,9 +7,9 @@ public class Test {
         table.insert(0,10);
         table.insert(0,10);
         table.insert(0,10);
-        System.out.println("table.isClear() = " + table.isClear());
+        System.out.println("table.isEmpty() = " + table.isEmpty());
         table.printList();
-//        table.clear();
+
         table.popHead();
         table.popHead();
         table.insert(1,2);

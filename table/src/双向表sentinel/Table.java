@@ -25,7 +25,7 @@ public class Table {
         sentinel.pre = sentinel;
         size = 0;
     }
-    public boolean isClear(){
+    public boolean isEmpty(){
         return sentinel.next == sentinel||sentinel.pre == sentinel;
     }
     public void addHead(int value){

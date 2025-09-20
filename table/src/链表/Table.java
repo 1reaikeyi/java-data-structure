@@ -14,10 +14,10 @@ public class Table {
     }
     Node head = null;
 
-    public void toClear(){
+    public void Clear(){
         head =null;
     }
-    public boolean isClear(){
+    public boolean isEmpty(){
         return head == null;
     }
     public void pushHead(int value){
