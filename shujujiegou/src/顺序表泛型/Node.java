@@ -34,7 +34,7 @@ public class Node<T> {
        System.out.println("Arrays.toString(elements) = " + Arrays.toString(elements));
    }
 
-    public T find(int i) {
+    public T findIndex(int i) {
         if (i < 0 || i >= n) {
             throw new RuntimeException(String.format("索引%d越界,查询范围0到"+n,i));
         }

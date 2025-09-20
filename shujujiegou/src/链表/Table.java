@@ -1,5 +1,7 @@
 package 链表;
 
+import java.util.function.Consumer;
+
 public class Table {
     private static class Node{
         public int value;
@@ -11,6 +13,7 @@ public class Table {
         }
     }
     Node head = null;
+
     public void toClear(){
         head =null;
     }
@@ -18,6 +21,10 @@ public class Table {
         return head == null;
     }
     public void pushHead(int value){
+        if (head == null){
+            head = new Node(value,null);
+            return;
+        }
         Node newNode = new Node(value,head);
         head = newNode;
     }
@@ -107,18 +114,30 @@ public class Table {
         pre.next = remove.next;
 
     }
-    public void kai(){
-        if (head == null){
-            System.out.println("kai失效");
-            System.out.println("链表为空");
-
+    public void allPrint1() {
+        Node cur = head;
+        while (cur != null) {
+            System.out.print(cur.value + "\t");
+            cur = cur.next;
         }
-        Node i = head;
-        while (i!=null){
-            System.out.println(i.value);
-            i = i.next;
-        }
-        System.out.println("--------------------------------");
+        System.out.println("---------------\n");
     }
+
+
+    //for循环
+    public void allPrint2() {
+        for (Node p = head; p != null; p = p.next) {
+            System.out.println(p.value);
+        }
+    }
+    //迭代lambal
+    public void allPrint3(Consumer<Integer> data) {
+        Node cur = head;
+        while (cur != null) {
+            data.accept(cur.value);
+            cur = cur.next;
+        }
+    }
+
 
 }

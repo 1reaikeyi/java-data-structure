@@ -1,4 +1,4 @@
-package 双向表2;
+package 双向表sentinel;
 
 public class 表 {
     private static class Node{

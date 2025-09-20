@@ -93,7 +93,7 @@ public class Node {
         }
         return data[index];
     }
-    public int find(int value){
+    public int findIndex(int value){
         for(int i=0;i<size;i++){
             if(data[i] == value){
                 System.out.println("寻找"+value+"的索引是:"+i);
@@ -103,7 +103,7 @@ public class Node {
         return -1;
     }
     public void pop(int x){
-        int index = find(x);
+        int index = findIndex(x);
         if(index == -1){
             throw new RuntimeException(String.format("元素%d不存在",x));
         }else{
