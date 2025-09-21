@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="链表--》sentinel链表">
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈">
+      <change afterPath="$PROJECT_DIR$/桟/src/link/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表sentinel/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表sentinel/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/实现/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/Usee.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/实现/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表sentinel/表$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表sentinel/表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/实现/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/link/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/实现/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/link/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/实现/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,54 +68,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/java项目_base/数据结构&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/java项目_base/数据结构/table/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.双向表.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/a.maven-java/java项目_base/数据结构",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/table/src/Main.java",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChainTest.executor": "Run",
+    "应用程序.Test.executor": "Run",
+    "应用程序.array.Test.executor": "Run",
+    "应用程序.link.Test.executor": "Run",
+    "应用程序.test.executor": "Run",
+    "应用程序.xunxubiao_泛型.Test.executor": "Run",
+    "应用程序.实现.Test.executor": "Run",
+    "应用程序.链表.Test.executor": "Run",
+    "应用程序.链表sentinel.Test.executor": "Run",
+    "应用程序.顺序表泛型.test.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.Test">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.array.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="双向表sentinel.Test" />
       <module name="table" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="双向表sentinel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="链表.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表.Test" />
-      <module name="桟" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="链表sentinel.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表sentinel.Test" />
+    <configuration name="array.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Test" />
       <module name="桟" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="链表sentinel.*" />
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="link.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="link.Test" />
+      <module name="桟" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.array.Test" />
+        <item itemvalue="应用程序.link.Test" />
         <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.双向表.test" />
         <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.链表sentinel.Test" />
-        <item itemvalue="应用程序.链表.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +214,8 @@
       <workItem from="1758258396710" duration="2712000" />
       <workItem from="1758270201234" duration="6710000" />
       <workItem from="1758346214918" duration="17679000" />
-      <workItem from="1758376295227" duration="2061000" />
+      <workItem from="1758376295227" duration="2732000" />
+      <workItem from="1758433440524" duration="4627000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -237,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758367794326</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="加入栈">
+      <option name="closed" value="true" />
+      <created>1758380009552</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758380009552</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +294,8 @@
     <MESSAGE value="加入数据结构" />
     <MESSAGE value="修改链表" />
     <MESSAGE value="链表--》sentinel链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="链表--》sentinel链表" />
+    <MESSAGE value="加入栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

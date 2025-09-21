@@ -1,8 +1,6 @@
-package 实现;
+package link;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class Node<E> implements Stack<E>,Iterable<E>{
         private E data;
@@ -40,10 +38,9 @@ public class Node<E> implements Stack<E>,Iterable<E>{
         @Override
         public boolean push(E value) {
             if (isFull()) {
-                return false;  // 栈满，无法入栈
+                throw new RuntimeException("栈满，无法入栈"+"capacity:" + capacity);
             }
-            // 创建新节点，新节点的next指向当前栈顶
-            Node<E> newNode = new Node<>(value, top);
+           Node<E> newNode = new Node<>(value, top);  // 创建新节点，将其next指向当前栈顶
             top = newNode;  // 更新栈顶指针
             size++;
             return true;
@@ -53,13 +50,14 @@ public class Node<E> implements Stack<E>,Iterable<E>{
         @Override
         public E pop() {
             if (isEmpty()) {
-                return null;  // 栈空，无法出栈
+                throw new RuntimeException("栈空，无法出栈");  // 栈空，无法出栈
             }
             E data = top.data;  // 获取栈顶数据
             top = top.next;  // 更新栈顶指针
             size--;
             return data;
         }
+        // 查看栈顶元素
         @Override
         public E peek() {
             if (isEmpty()) {

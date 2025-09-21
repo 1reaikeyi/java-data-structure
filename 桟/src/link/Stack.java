@@ -1,4 +1,4 @@
-package 实现;
+package link;
 
 public interface Stack<E>{
     public abstract boolean isEmpty();
