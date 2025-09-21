@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈">
-      <change afterPath="$PROJECT_DIR$/桟/src/link/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表sentinel/表$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/双向表sentinel/表.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/shujujiegou/链表sentinel/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/双向表sentinel/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/实现/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/link/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/实现/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/桟/src/link/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/实现/Test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +188,7 @@
       <workItem from="1758270201234" duration="6710000" />
       <workItem from="1758346214918" duration="17679000" />
       <workItem from="1758376295227" duration="2732000" />
-      <workItem from="1758433440524" duration="4627000" />
+      <workItem from="1758433440524" duration="4976000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -273,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758380009552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="加入栈">
+      <option name="closed" value="true" />
+      <created>1758462456696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758462456696</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
