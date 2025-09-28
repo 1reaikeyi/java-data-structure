@@ -1,4 +1,4 @@
-package 链表;
+package link;
 
 import java.util.Iterator;
 

@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈">
-      <change afterPath="$PROJECT_DIR$/experice/experice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/queue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/链表/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/链表/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入队列">
+      <change afterPath="$PROJECT_DIR$/queue/src/array/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/src/array/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/src/array/queueArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/链表/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/链表/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/array/SqArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/SqArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/array/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/array/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/link/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/src/link/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/桟/桟.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stake/stake.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +79,7 @@
     "应用程序.ChainTest.executor": "Run",
     "应用程序.Main.executor": "Run",
     "应用程序.Test.executor": "Run",
+    "应用程序.array.Main.executor": "Run",
     "应用程序.array.Test.executor": "Run",
     "应用程序.link.Test.executor": "Run",
     "应用程序.merge合并数组.Main.executor": "Run",
@@ -93,7 +98,7 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.链表.Main">
+  <component name="RunManager" selected="应用程序.array.Main">
     <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="归并排序.归并排序" />
       <module name="pai" />
@@ -133,9 +138,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Test" />
-      <module name="桟" />
+    <configuration name="array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Main" />
+      <module name="queue" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
@@ -161,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.array.Main" />
         <item itemvalue="应用程序.链表.Main" />
         <item itemvalue="应用程序.merge合并数组.Main" />
         <item itemvalue="应用程序.归并排序" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.array.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +215,7 @@
       <workItem from="1758705206480" duration="393000" />
       <workItem from="1758705716437" duration="615000" />
       <workItem from="1758719612369" duration="1139000" />
-      <workItem from="1759039001250" duration="3246000" />
+      <workItem from="1759039001250" duration="6278000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -284,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758462565498</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="加入队列">
+      <option name="closed" value="true" />
+      <created>1759042478993</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759042478993</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +319,8 @@
     <MESSAGE value="修改链表" />
     <MESSAGE value="链表--》sentinel链表" />
     <MESSAGE value="加入栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入栈" />
+    <MESSAGE value="加入队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入队列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -5,9 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/experice/experice.iml" filepath="$PROJECT_DIR$/experice/experice.iml" />
       <module fileurl="file://$PROJECT_DIR$/pai/pai.iml" filepath="$PROJECT_DIR$/pai/pai.iml" />
       <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stake/stake.iml" filepath="$PROJECT_DIR$/stake/stake.iml" />
       <module fileurl="file://$PROJECT_DIR$/table/table.iml" filepath="$PROJECT_DIR$/table/table.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/数据结构.iml" filepath="$PROJECT_DIR$/.idea/数据结构.iml" />
-      <module fileurl="file://$PROJECT_DIR$/桟/桟.iml" filepath="$PROJECT_DIR$/桟/桟.iml" />
     </modules>
   </component>
 </project>

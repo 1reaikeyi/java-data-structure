@@ -1,4 +1,4 @@
-package 链表;
+package link;
 
 import java.util.Iterator;
 
@@ -12,7 +12,9 @@ public class Main {
         table.offer("元素3");
         table.offer("元素4");
         System.out.println("table.head = " + table.head);
+
         System.out.println("table.tail = " + table.tail);
+
         Iterator<String> iterator = table.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());

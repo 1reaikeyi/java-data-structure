@@ -1,6 +1,6 @@
-package 链表;
+package array;
 
-public interface Queue <T>{
+public interface Queue<T>{
     //向队尾中添加元素
     boolean offer(T value);
     //获取队头元素并删除
