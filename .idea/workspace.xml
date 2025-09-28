@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入栈">
+      <change afterPath="$PROJECT_DIR$/experice/experice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/src/链表/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/src/链表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,25 +60,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/java项目_base/数据结构",
+    "last_opened_file_path": "D:/a.maven-java/java_base/数据结构",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/table/src/Main.java",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/experice/src/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
     "应用程序.ChainTest.executor": "Run",
+    "应用程序.Main.executor": "Run",
     "应用程序.Test.executor": "Run",
     "应用程序.array.Test.executor": "Run",
     "应用程序.link.Test.executor": "Run",
+    "应用程序.merge合并数组.Main.executor": "Run",
     "应用程序.test.executor": "Run",
     "应用程序.xunxubiao_泛型.Test.executor": "Run",
     "应用程序.实现.Test.executor": "Run",
+    "应用程序.归并排序.executor": "Run",
+    "应用程序.链表.Main.executor": "Run",
     "应用程序.链表.Test.executor": "Run",
     "应用程序.链表sentinel.Test.executor": "Run",
     "应用程序.顺序表泛型.test.executor": "Run"
@@ -77,13 +93,13 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.array.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双向表sentinel.Test" />
-      <module name="table" />
+  <component name="RunManager" selected="应用程序.链表.Main">
+    <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="归并排序.归并排序" />
+      <module name="pai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双向表sentinel.*" />
+          <option name="PATTERN" value="归并排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="双向表.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双向表.test" />
-      <module name="table" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reserve链表.Main" />
+      <module name="experice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双向表.*" />
+          <option name="PATTERN" value="reserve链表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="链表.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="链表.Main" />
+      <module name="queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,25 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="link.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="link.Test" />
-      <module name="桟" />
+    <configuration name="merge合并数组.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="merge合并数组.Main" />
+      <module name="experice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="link.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="顺序表.test" />
-      <module name="桟" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="顺序表.*" />
+          <option name="PATTERN" value="merge合并数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.链表.Main" />
+        <item itemvalue="应用程序.merge合并数组.Main" />
+        <item itemvalue="应用程序.归并排序" />
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.array.Test" />
-        <item itemvalue="应用程序.link.Test" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.双向表.test" />
-        <item itemvalue="应用程序.test" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +204,13 @@
       <workItem from="1758270201234" duration="6710000" />
       <workItem from="1758346214918" duration="17679000" />
       <workItem from="1758376295227" duration="2732000" />
-      <workItem from="1758433440524" duration="4976000" />
+      <workItem from="1758433440524" duration="5847000" />
+      <workItem from="1758630867282" duration="1543000" />
+      <workItem from="1758692979695" duration="7531000" />
+      <workItem from="1758705206480" duration="393000" />
+      <workItem from="1758705716437" duration="615000" />
+      <workItem from="1758719612369" duration="1139000" />
+      <workItem from="1759039001250" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -254,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758462456696</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="加入栈">
+      <option name="closed" value="true" />
+      <created>1758462565498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758462565498</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
