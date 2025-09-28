@@ -3,7 +3,6 @@ package array;
 import java.util.Arrays;
 
 public class queueArray<E> implements Queue<E>{
-    private int size = 0;
     private int capacity = 0;
     private E[] data;
     private int head = 0;
@@ -22,7 +21,12 @@ public class queueArray<E> implements Queue<E>{
         }
         data[tail] = value;
         tail = (tail + 1) % capacity;
-        size++;
+        /**
+         * 1.(tail + 1) % capacity = head
+         * 2.使用size来判断是否满
+         * 3.tail和head使用自增自减
+         */
+
         return true;
     }
 
@@ -33,7 +37,7 @@ public class queueArray<E> implements Queue<E>{
         }
         E value = data[head];
         head = (head + 1) % capacity;
-        size--;
+
         return value;
     }
 
@@ -56,7 +60,6 @@ public class queueArray<E> implements Queue<E>{
         return (tail + 1) % capacity == head;
     }
     public void printAll(){
-        System.out.println("size = " + size);
         System.out.println("haed = " + head);
         System.out.println("tail = " + tail);
 //        System.out.println("Arrays.toString(data) = " + Arrays.toString(data));

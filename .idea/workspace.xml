@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入队列">
-      <change afterPath="$PROJECT_DIR$/queue/src/array/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/array/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/src/array/queueArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/链表/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/链表/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/link/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/array/SqArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/SqArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/array/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/array/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/array/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/link/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/link/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/src/link/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/link/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/桟/桟.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stake/stake.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/array/queueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/array/queueArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +203,7 @@
       <workItem from="1758705206480" duration="393000" />
       <workItem from="1758705716437" duration="615000" />
       <workItem from="1758719612369" duration="1139000" />
-      <workItem from="1759039001250" duration="6278000" />
+      <workItem from="1759039001250" duration="8742000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -297,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759042478993</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="加入队列">
+      <option name="closed" value="true" />
+      <created>1759046894309</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759046894309</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
