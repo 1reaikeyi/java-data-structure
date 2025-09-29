@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入队列">
+      <change afterPath="$PROJECT_DIR$/heap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/array/queueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/array/queueArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/java项目_base/数据结构/experice/src/Main.java",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java_base/数据结构/heap/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -71,6 +77,7 @@
     "应用程序.array.Test.executor": "Run",
     "应用程序.link.Test.executor": "Run",
     "应用程序.merge合并数组.Main.executor": "Run",
+    "应用程序.org.example.Main.executor": "Run",
     "应用程序.test.executor": "Run",
     "应用程序.xunxubiao_泛型.Test.executor": "Run",
     "应用程序.实现.Test.executor": "Run",
@@ -83,29 +90,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.array.Main">
+  <component name="RunManager" selected="应用程序.org.example.Main">
     <configuration name="归并排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="归并排序.归并排序" />
       <module name="pai" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="归并排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reserve链表.Main" />
-      <module name="experice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reserve链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.org.example.Main" />
         <item itemvalue="应用程序.array.Main" />
         <item itemvalue="应用程序.链表.Main" />
         <item itemvalue="应用程序.merge合并数组.Main" />
         <item itemvalue="应用程序.归并排序" />
-        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +211,8 @@
       <workItem from="1758705206480" duration="393000" />
       <workItem from="1758705716437" duration="615000" />
       <workItem from="1758719612369" duration="1139000" />
-      <workItem from="1759039001250" duration="8742000" />
+      <workItem from="1759039001250" duration="9916000" />
+      <workItem from="1759122614277" duration="4935000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -293,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759046894309</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="加入队列">
+      <option name="closed" value="true" />
+      <created>1759068776967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759068776967</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
