@@ -9,7 +9,14 @@ public class Main {
         int[] arr = {1,2,3,4,5,6,7};
      MaxHeap maxHeap = new MaxHeap(arr);
         System.out.println("Arrays.toString(maxHeap.array) = " + Arrays.toString(maxHeap.array));
-//        {7, 6, 4, 2, 1, 3}
-        System.out.println("-----");
+        MaxHeap heap = new MaxHeap(10);
+        heap.offer(1);
+        heap.offer(2);
+        heap.offer(3);
+        heap.offer(4);
+        heap.offer(10);
+        System.out.println("heap.peek() = " + heap.peek());
+        heap.pull();
+        heap.printAll();
     }
 }
