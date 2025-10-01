@@ -11,6 +11,10 @@ public class Main {
 
        );
        printPreOrder(tree);
+        System.out.println("####################");
+       printInOrder(tree);
+        System.out.println("####################");
+        printPostOrder(tree);
     }
     public static void printPreOrder(TreeNode node) {
         if (node == null) {
@@ -23,9 +27,28 @@ public class Main {
         // 最后递归遍历右子树
         printPreOrder(node.right);
     }
-    public static void printInOrder(TreeNode root) {
+    public static void printInOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        // 先递归遍历左子树
+        printInOrder(node.left);
+        // 再访问当前节点
+        System.out.print(node.val + "\t");
+        // 最后递归遍历右子树
+        printInOrder(node.right);
 
     }
-    public static void printPostOrder(TreeNode root) {}
+    public static void printPostOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        // 先递归遍历左子树
+        printInOrder(node.left);
+        // 再递归遍历右子树
+        printInOrder(node.right);
+        // 最后访问当前节点
+        System.out.print(node.val + "\t");
+    }
 
 }
