@@ -4,13 +4,16 @@ package reserve链表;
 // 点击装订区域中的 <icon src="AllIcons.Actions.Execute"/> 图标。
 public class Main {
     public static void main(String[] args) {
-        ListNode o5 = new ListNode(5,null);
-        ListNode o4 = new ListNode(4,o5);
-        ListNode o3 = new ListNode(3,o4);
-        ListNode o2 = new ListNode(2,o3);
-        ListNode o1 = new ListNode(1,o2);
+        ListNode o1 = new ListNode(1,
+                 new ListNode(2,
+                         new ListNode(3,
+                                 new ListNode(4,
+                                         new ListNode(5,null)))));
         System.out.println("o1 = " + o1);
         ListNode n = new ListNode().reverseList(o1);
         System.out.println("n = " + n);
+        ListNode n2 = new ListNode().reverseList2(o1);
+        System.out.println("n2 = " + n2);
+
     }
 }

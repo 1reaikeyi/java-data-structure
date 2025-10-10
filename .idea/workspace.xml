@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入tree">
+      <change afterPath="$PROJECT_DIR$/experice/src/KMP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/遍历/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/遍历/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/experice/merge合并数组/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/experice/merge合并数组/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/experice/merge合并数组/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/experice/merge合并数组/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/experice/reserve链表/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/experice/reserve链表/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/experice/reserve链表/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/experice/reserve链表/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,44 +54,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/java_base/数据结构/heap/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/java_base/数据结构/tree/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.array.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.array.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.link.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.merge合并数组.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.org.example.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.实现.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.归并排序.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.双向表.test.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/a.maven-java/java_project/spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/a.maven-java/java_base/数据结构/tree/src/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChainTest.executor": "Run",
+    "应用程序.KMP.Main.executor": "Run",
+    "应用程序.KMP.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Test.executor": "Run",
+    "应用程序.array.Main.executor": "Run",
+    "应用程序.array.Test.executor": "Run",
+    "应用程序.link.Test.executor": "Run",
+    "应用程序.merge合并数组.Main.executor": "Run",
+    "应用程序.org.example.Main.executor": "Run",
+    "应用程序.reserve链表.Main.executor": "Run",
+    "应用程序.test.executor": "Run",
+    "应用程序.xunxubiao_泛型.Test.executor": "Run",
+    "应用程序.实现.Test.executor": "Run",
+    "应用程序.归并排序.executor": "Run",
+    "应用程序.链表.Main.executor": "Run",
+    "应用程序.链表.Test.executor": "Run",
+    "应用程序.链表sentinel.Test.executor": "Run",
+    "应用程序.顺序表泛型.test.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\a.maven-java\java_base\数据结构\heap\src\main\resources" />
@@ -92,39 +104,39 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main">
+  <component name="RunManager" selected="应用程序.KMP.Main">
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KMP.KMP" />
+      <module name="experice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KMP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KMP.Main" />
+      <module name="experice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KMP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="遍历.Main" />
       <module name="tree" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="遍历.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="链表.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="链表.Main" />
-      <module name="queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Main" />
-      <module name="queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="heap" />
+    <configuration name="reserve链表.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reserve链表.Main" />
+      <module name="experice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="reserve链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.org.example.Main" />
-        <item itemvalue="应用程序.array.Main" />
-        <item itemvalue="应用程序.链表.Main" />
+        <item itemvalue="应用程序.KMP.Main" />
+        <item itemvalue="应用程序.KMP" />
         <item itemvalue="应用程序.merge合并数组.Main" />
+        <item itemvalue="应用程序.reserve链表.Main" />
+        <item itemvalue="应用程序.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +225,11 @@
       <workItem from="1759122614277" duration="8087000" />
       <workItem from="1759158322503" duration="923000" />
       <workItem from="1759222125139" duration="8290000" />
-      <workItem from="1759290853325" duration="1626000" />
+      <workItem from="1759290853325" duration="1885000" />
+      <workItem from="1759292853896" duration="51000" />
+      <workItem from="1759301277429" duration="4496000" />
+      <workItem from="1759651974413" duration="144000" />
+      <workItem from="1760075348810" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -335,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759242903903</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="加入tree">
+      <option name="closed" value="true" />
+      <created>1759292520480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1759292520480</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

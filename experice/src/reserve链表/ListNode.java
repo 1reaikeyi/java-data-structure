@@ -28,16 +28,30 @@ public class ListNode {
     }
 //    方法一
     public ListNode reverseList(ListNode head) {
-        int a = 0;
-        ListNode newHead;
-        while (head.next != null) {
+        ListNode newNode =null;
+        while (head != null) {
+            //newNode { val = 1, next = null }
+            //newNode { val = 2, next = { val = 1, next = null } }
+            //newNode { val = 3, next = { val = 2, next = { val = 1, next = null } } }
+            //newNode { val = 4, next = { val = 3, next = { val = 2, next = { val = 1, next = null } } } }
+            //newNode { val = 5, next = { val = 4, next = { val = 3, next = { val = 2, next = { val = 1, next = null } } } } }
+           newNode = new ListNode(head.val, newNode);
+           System.out.println("newNode = " + newNode.val);
             head = head.next;
-            newHead = head.next;
-            a++;
-        }
-        System.out.println("数据个数： = " + a);
 
-
-        return head;
+       }
+        return newNode;
     }
+    //方法二
+    public ListNode reverseList2(ListNode p) {
+        if(p.next == null||p == null){
+            return p;
+        }
+        ListNode last = reverseList2(p.next);
+        System.out.println("last = " + last);
+        p.next.next = p;
+        p.next = null;
+        return last;
+    }
+    //方法三
 }

@@ -2,18 +2,7 @@ package merge合并数组;
 
 public class Merge {
 
-    /**
-     * 递归方式合并两个有序数组到目标数组
-     *
-     * @param num1 第一个有序数组
-     * @param x     第一个数组的起始索引
-     * @param xend  第一个数组的结束索引（包含）
-     * @param nums2 第二个有序数组
-     * @param y     第二个数组的起始索引
-     * @param yend  第二个数组的结束索引（包含）
-     * @param dest  目标数组，用于存放合并结果
-     * @param a     目标数组的当前填充位置
-     */
+
 //    public static native void arraycopy(
 //            Object src,   // 源数组
 //            int srcPos,   // 源数组中开始复制的起始索引
@@ -42,18 +31,6 @@ public class Merge {
             merge(num1, x, xend, nums2, y + 1, yend, dest, a + 1);
         }
     }
-
-    /**
-     * 迭代方式合并两个有序数组到第一个数组
-     * 假设num1有足够的空间容纳合并后的所有元素
-     *
-     * @param num1 第一个有序数组（结果存放于此）
-     * @param x     第一个数组的有效元素起始索引
-     * @param xend  第一个数组的有效元素结束索引（包含）
-     * @param nums2 第二个有序数组
-     * @param y     第二个数组的起始索引
-     * @param yend  第二个数组的结束索引（包含）
-     */
     public void merge(int[] num1, int x, int xend, int[] nums2, int y, int yend) {
         // 计算需要合并的元素总数
         int Length = (xend - x + 1) + (yend - y + 1);
