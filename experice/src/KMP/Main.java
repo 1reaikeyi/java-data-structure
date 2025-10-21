@@ -10,26 +10,27 @@ public class Main {
                 "AAAA",
                 "ABCDE"
         };
-        //  0   1   2   3   4   5   6   7   8
+        //  1   2   3   4   5   6   7   8    9
         // "A   B   A   B   C   A   B   A    A",
         /**[0, 0, 1, 2, 0, 1, 2, 3, 1]
          *  0   0   1   2   0  0
-         *  1
+         *
+         *  2
          *  前缀集合：{"A"}
          *  后缀集合：{"B"}
-         *  2
+         *  3
          *  前缀集合：{"A", "AB"}
          * 后缀集合：{"A", "BA"}
-         *  3
+         *  4
          *  前缀集合：{"A", "AB", "ABA"}
          * 后缀集合：{"B", "AB", "BAB"}
-         *  4
+         *  5
          *  前缀集合：{"A", "AB", "ABA", "ABAB"}
          * 后缀集合：{"C", "BC", "ABC", "BABC"}
-         *  5
+         *  6
          *  前缀集合：{"A", "AB", "ABA", "ABAB", "ABABC"}
          * 后缀集合：{"A", "CA", "BCA", "ABCA", "BABCA"}
-         * 6
+         * 7
          * 前缀集合：{"A", "AB", "ABA", "ABAB", "ABABC", "ABABCA"}
          * 后缀集合：{"B", "AB", "CAB", "BCAB", "ABCAB", "BABCAB"}
          *
