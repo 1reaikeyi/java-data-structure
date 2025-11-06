@@ -40,7 +40,8 @@ public class Node<E> implements Stack<E>,Iterable<E>{
             if (isFull()) {
                 throw new RuntimeException("栈满，无法入栈"+"capacity:" + capacity);
             }
-           Node<E> newNode = new Node<>(value, top);  // 创建新节点，将其next指向当前栈顶
+           Node<E> newNode = new Node<>(value, null);
+            newNode.next = top;  // 创建新节点，将其next指向当前栈顶
             top = newNode;  // 更新栈顶指针
             size++;
             return true;

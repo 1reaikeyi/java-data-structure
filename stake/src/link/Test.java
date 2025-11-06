@@ -18,9 +18,6 @@ public class Test {
             System.out.println(item);
         }
         System.out.println("栈顶元素：" + stack.peek());
-        while (iterator.hasNext()) {
-            String item = iterator.next();
-            System.out.println(item);
-        }
+
     }
 }
