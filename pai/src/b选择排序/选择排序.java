@@ -1,4 +1,4 @@
-package 选择排序;
+package b选择排序;
 
 import java.util.Arrays;
 
@@ -8,11 +8,8 @@ public class 选择排序 {
         System.out.println("排序前：Arrays.toString(array) = " + Arrays.toString(array));
         sort(array);
         sort2(array);
-
     }
-    //单向
     public static void sort(int[] array) {
-
      for (int i = 0; i < array.length; i++) {
          int maxIndex = 0;
          for (int x = 0; x < array.length-i; x++) {
@@ -29,30 +26,25 @@ public class 选择排序 {
      }
         System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
     }
-    //双向
+
     public static void sort2(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            int minIndex = 0;
-            int maxIndex = 0;
-            for (int x = 0; x < array.length-i; x++) {
-                if (array[x]>array[maxIndex]){
-                    maxIndex = x;
-                }
-                if (array[x]<array[minIndex]){
-                    minIndex = x;
+        int len = array.length;
+        // 外层循环：每轮确定1个最小值（已排序区间在开头，长度为i）
+        for (int i = 0; i < len - 1; i++) { // 优化：最后1个元素无需比较
+            int minIndex = i; // 初始化为未排序区间的起始索引（i）
+            // 内层循环：遍历未排序区间（i ~ len-1）
+            for (int j = i; j < len; j++) {
+                if (array[j] < array[minIndex]) {
+                    minIndex = j;
                 }
             }
-            if (maxIndex!= array.length-1-i){
-                int temp = array[maxIndex];
-                array[maxIndex] = array[array.length-i-1];
-                array[array.length-i-1] = temp;
-            }
-            if (minIndex!= i){
+            // 交换最小值与未排序区间的起始元素（避免自身交换）
+            if (minIndex != i) {
                 int temp = array[minIndex];
                 array[minIndex] = array[i];
                 array[i] = temp;
             }
         }
-        System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+        System.out.println("sort2（选最小值放前面）：" + Arrays.toString(array));
     }
 }
