@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
       <module fileurl="file://$PROJECT_DIR$/experice/experice.iml" filepath="$PROJECT_DIR$/experice/experice.iml" />
       <module fileurl="file://$PROJECT_DIR$/pai/pai.iml" filepath="$PROJECT_DIR$/pai/pai.iml" />
       <module fileurl="file://$PROJECT_DIR$/queue/queue.iml" filepath="$PROJECT_DIR$/queue/queue.iml" />
