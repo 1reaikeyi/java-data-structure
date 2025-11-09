@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class 插入排序 {
     public static void main(String[] args) {
-        int[] array = {11,11,5,4,3,2,1,9,8,7,6,0};
+        int[] array = {11,5,4,3,2,1,9,8,7,6,0};
         System.out.println("排序前：Arrays.toString(array) = " + Arrays.toString(array));
         sort(array);
     }
@@ -19,9 +19,11 @@ public class 插入排序 {
             while (j>0 && arr[j-1]>temp){
                 arr[j] = arr[j-1];
                 j--;
+                System.out.println("1--Arrays.toString(arr) = " + Arrays.toString(arr));
             }
             // 将 temp 插入到找到的插入位置
             arr[j] = temp;
+            System.out.println("2--Arrays.toString(arr) = " + Arrays.toString(arr));
         }
         System.out.println("sort：Arrays.toString(array) = " + Arrays.toString(arr));
 

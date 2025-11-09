@@ -9,7 +9,7 @@ public class 希尔排序 {
         System.out.println("排序前：Arrays.toString(array) = " + Arrays.toString(array));
         sort(array);
     }
-
+    //单向希尔排序
     public static void sort(int[] arr) {
         int n = arr.length;
         /**
@@ -21,15 +21,37 @@ public class 希尔排序 {
                 while (j - gap >= 0 && arr[j - gap] > temp) {
                     arr[j] = arr[j - gap];
                     j -= gap;
+                    System.out.println("1-----Arrays.toString(arr) = " + Arrays.toString(arr));
                 }
                 arr[j] = temp;
+                System.out.println("2-----Arrays.toString(arr) = " + Arrays.toString(arr));
             }
-            System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+            System.out.println("分组之后--------Arrays.toString(arr) = " + Arrays.toString(arr));
         }
-        System.out.println("---------------------------");
+        System.out.println("------------------------------------------------------------------");
         System.out.println("排序后：Arrays.toString(arr) = " + Arrays.toString(arr));
     }
 
+    /**
+     * 排序前：Arrays.toString(array) = [5, 4, 1, 3, 2]
+     * 1-----Arrays.toString(arr) = [5, 4, 5, 3, 2]
+     * 2-----Arrays.toString(arr) = [1, 4, 5, 3, 2]
+     * 1-----Arrays.toString(arr) = [1, 4, 5, 4, 2]
+     * 2-----Arrays.toString(arr) = [1, 3, 5, 4, 2]
+     * 1-----Arrays.toString(arr) = [1, 3, 5, 4, 5]
+     * 2-----Arrays.toString(arr) = [1, 3, 2, 4, 5]
+     * 分组之后--------Arrays.toString(arr) = [1, 3, 2, 4, 5]
+     * 2-----Arrays.toString(arr) = [1, 3, 2, 4, 5]
+     * 1-----Arrays.toString(arr) = [1, 3, 3, 4, 5]
+     * 2-----Arrays.toString(arr) = [1, 2, 3, 4, 5]
+     * 2-----Arrays.toString(arr) = [1, 2, 3, 4, 5]
+     * 2-----Arrays.toString(arr) = [1, 2, 3, 4, 5]
+     * 分组之后--------Arrays.toString(arr) = [1, 2, 3, 4, 5]
+     * ---------------------------
+     * 排序后：Arrays.toString(arr) = [1, 2, 3, 4, 5]
+     *
+     */
+    //双向希尔排序
 
     public static void twoWayShellSort(int[] arr) {
         int n = arr.length;

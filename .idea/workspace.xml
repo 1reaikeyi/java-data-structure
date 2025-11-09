@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入tree">
-      <change afterPath="$PROJECT_DIR$/pai/src/c插入排序/插入排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tree/src/哈夫曼树/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="pai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/冒泡排序/冒泡排序$BidirectionalBubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/冒泡排序/冒泡排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/插入排序/插入排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/选择排序/选择排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/冒泡排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/希尔排序/fuben.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/d希尔排序/fuben.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/希尔排序/希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/d希尔排序/希尔排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/插入排序/插入排序.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/选择排序/选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/b选择排序/选择排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/重写/Chongxie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pai/希尔排序/fuben.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pai/希尔排序/希尔排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pai/归并排序/归并排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/c插入排序/插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/c插入排序/插入排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/d希尔排序/fuben.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/d希尔排序/fuben.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/d希尔排序/希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/d希尔排序/希尔排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,55 +52,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.单一test.executor": "Run",
-    "Application.双向表.test.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/java_base/数据结构/tu/src/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.ChainTest.executor": "Run",
-    "应用程序.HuffmanTree.executor": "Run",
-    "应用程序.KMP.Main.executor": "Run",
-    "应用程序.KMP.executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.PrintTreenode.executor": "Debug",
-    "应用程序.Test.executor": "Run",
-    "应用程序.Tree.executor": "Run",
-    "应用程序.array.Main.executor": "Run",
-    "应用程序.array.Test.executor": "Run",
-    "应用程序.fuben.executor": "Run",
-    "应用程序.link.Test.executor": "Run",
-    "应用程序.merge合并数组.Main.executor": "Run",
-    "应用程序.org.example.Main.executor": "Run",
-    "应用程序.reserve链表.Main.executor": "Run",
-    "应用程序.test.executor": "Run",
-    "应用程序.xunxubiao_泛型.Test.executor": "Run",
-    "应用程序.实现.Test.executor": "Run",
-    "应用程序.希尔排序.executor": "Run",
-    "应用程序.归并排序.executor": "Run",
-    "应用程序.插入排序.executor": "Run",
-    "应用程序.选择排序.executor": "Run",
-    "应用程序.链表.Main.executor": "Run",
-    "应用程序.链表.Test.executor": "Run",
-    "应用程序.链表sentinel.Test.executor": "Run",
-    "应用程序.顺序表泛型.test.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.单一test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/javacode/数据结构&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/java_base/数据结构/tu/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.HuffmanTree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.PrintTreenode.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Tree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.fuben.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.link.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.merge合并数组.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.reserve链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.实现.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.希尔排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.归并排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.插入排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.选择排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\a.maven-java\java_base\数据结构\heap\src\main\resources" />
@@ -149,6 +143,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="d希尔排序.希尔排序" />
+      <module name="pai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="d希尔排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,7 +282,11 @@
       <workItem from="1762406350403" duration="1232000" />
       <workItem from="1762438453250" duration="1491000" />
       <workItem from="1762507380898" duration="9034000" />
-      <workItem from="1762571687996" duration="8673000" />
+      <workItem from="1762571687996" duration="9009000" />
+      <workItem from="1762606986098" duration="21000" />
+      <workItem from="1762609405327" duration="79000" />
+      <workItem from="1762609624897" duration="2000" />
+      <workItem from="1762669277725" duration="2978000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -429,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762438663539</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="pai">
+      <option name="closed" value="true" />
+      <created>1762600330497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1762600330498</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +474,8 @@
     <MESSAGE value="加入heap" />
     <MESSAGE value="加入kmp" />
     <MESSAGE value="加入tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入tree" />
+    <MESSAGE value="pai" />
+    <option name="LAST_COMMIT_MESSAGE" value="pai" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
