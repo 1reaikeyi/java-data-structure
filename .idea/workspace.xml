@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="pai">
-      <change afterPath="$PROJECT_DIR$/String/String.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/KMP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/a冒泡排序/冒泡排序$BidirectionalBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pai/a冒泡排序/冒泡排序$BidirectionalBubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/a冒泡排序/冒泡排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pai/a冒泡排序/冒泡排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/d希尔排序/fuben.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pai/d希尔排序/fuben.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/pai/e归并排序/归并排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pai/e归并排序/归并排序.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/KMP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/Nextarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/src/main/java/org/example/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/Recursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,7 @@
     "vue.rearranger.settings.migration": "true",
     "应用程序.ChainTest.executor": "Run",
     "应用程序.HuffmanTree.executor": "Run",
+    "应用程序.Iteration.executor": "Run",
     "应用程序.KMP.Main.executor": "Run",
     "应用程序.KMP.executor": "Run",
     "应用程序.Main.executor": "Run",
@@ -114,13 +111,39 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.归并排序">
+  <component name="RunManager" selected="应用程序.org.example.Main">
     <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c插入排序.插入排序" />
       <module name="pai" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="c插入排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e归并排序.Iteration" />
+      <module name="pai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="e归并排序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="merge合并数组.Main" />
+      <module name="experice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="merge合并数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +170,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="e归并排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.HuffmanTree" />
-      <module name="tu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,13 +216,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.归并排序" />
+        <item itemvalue="应用程序.org.example.Main" />
+        <item itemvalue="应用程序.Iteration" />
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.fuben" />
         <item itemvalue="应用程序.插入排序" />
-        <item itemvalue="应用程序.希尔排序" />
-        <item itemvalue="应用程序.HuffmanTree" />
       </list>
     </recent_temporary>
   </component>
@@ -291,6 +314,7 @@
       <workItem from="1762609405327" duration="79000" />
       <workItem from="1762609624897" duration="2000" />
       <workItem from="1762669277725" duration="8249000" />
+      <workItem from="1762685480926" duration="5629000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -468,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762673217759</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pai">
+      <option name="closed" value="true" />
+      <created>1762685391087</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762685391087</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

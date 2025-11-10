@@ -1,12 +1,9 @@
 package e归并排序;
 
 import java.util.Arrays;
-import java.util.Random;
 
-public class 归并排序 {
+public class Recursion {
     public static void main(String[] args) {
-
-//        int[] array = {5, 4, 3, 2, 1, 9, 8, 7, 6, 0};
         /**
          * 排序前：[5, 4, 3, 2, 1]
          * splitleft: [5, 4, 3]
@@ -30,8 +27,10 @@ public class 归并排序 {
 
     }
     public static void sort1(int[] array) {
+        //递归
         split(array, 0, array.length - 1, new int[array.length]);
     }
+
     public static void split(int[] a1, int left, int right, int[] a2){
         //copyOfRange(int[] original, int from, int to不包含to)
         if (left < right) {
@@ -84,4 +83,5 @@ public class 归并排序 {
         int[] mergedArray = Arrays.copyOfRange(a1, start, yend + 1);
         System.out.println("merge: " + Arrays.toString(mergedArray));
     }
+
 }

@@ -1,6 +1,6 @@
 package KMP;
 
-public class Main {
+public class Nextarray {
     public static void main(String[] args) {
         KMP kmp = new KMP();
         String[] testPatterns = {

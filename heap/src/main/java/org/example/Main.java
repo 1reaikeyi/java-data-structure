@@ -10,11 +10,11 @@ public class Main {
      MaxHeap maxHeap = new MaxHeap(arr);
         System.out.println("Arrays.toString(maxHeap.array) = " + Arrays.toString(maxHeap.array));
         MaxHeap heap = new MaxHeap(10);
-        heap.offer(1);
-        heap.offer(2);
-        heap.offer(3);
-        heap.offer(4);
-        heap.offer(10);
+//        heap.offer(1);
+//        heap.offer(2);
+//        heap.offer(3);
+//        heap.offer(4);
+//        heap.offer(10);
         System.out.println("heap.peek() = " + heap.peek());
         heap.pull();
         heap.printAll();

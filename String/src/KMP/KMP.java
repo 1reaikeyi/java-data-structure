@@ -26,10 +26,6 @@ public class KMP {
 
         return next;
     }
-
-    /**
-     * 打印next数组的方法，用于测试
-     */
     public void print(int[] next) {
         System.out.print("next数组: [");
         for (int i = 0; i < next.length; i++) {
