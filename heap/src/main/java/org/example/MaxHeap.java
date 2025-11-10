@@ -16,13 +16,6 @@ public class MaxHeap implements Queue{
         this.capacity = array.length;
         maxHeap();
     }
-    public void maxHeap() {
-
-        // 从最后一个非叶子节点开始，自底向上进行下沉操作
-        for (int i = size / 2 - 1; i >= 0; i--) {
-            down(i);
-        }
-    }
     /**   size   索引
      *      1    0               7
      *      2    1          5
@@ -32,6 +25,14 @@ public class MaxHeap implements Queue{
      *      6    5                   1
      *      7    6                        3
      */
+    public void maxHeap() {
+
+        // 从最后一个非叶子节点开始，自底向上进行下沉操作
+        for (int i = size / 2 - 1; i >= 0; i--) {
+            down(i);
+        }
+    }
+
 
     private void down(int parent) {
         int left = 2 * parent + 1;
