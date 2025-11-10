@@ -32,8 +32,6 @@ public class MaxHeap implements Queue{
             down(i);
         }
     }
-
-
     private void down(int parent) {
         int left = 2 * parent + 1;
         int right = 2 * parent + 2;
@@ -52,6 +50,19 @@ public class MaxHeap implements Queue{
            // 递归地对较大节点进行下沉操作
             down(max);
         }
+    }
+    private void up(int value) {
+        int child = size;
+        while (child > 0) {
+            int parent = (child-1) / 2;
+            if (value > array[parent]) {
+                array[child] = array[parent];
+            }else{
+                break;
+            }
+            child = parent;
+        }
+        array[child] = value;
     }
     private void swap(int max, int parent) {
         int temp = array[max];
@@ -153,20 +164,6 @@ public class MaxHeap implements Queue{
      *   结束循环
      *   arr = {7,5,1,4,2,6,3}
      */
-
-    private void up(int value) {
-        int child = size;
-        while (child > 0) {
-            int parent = (child-1) / 2;
-            if (value > array[parent]) {
-                array[child] = array[parent];
-            }else{
-                break;
-            }
-            child = parent;
-        }
-        array[child] = value;
-    }
 
     @Override
     public int pull() {

@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="pai">
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/KMP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/Nextarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heap/src/main/java/org/example/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/main/java/org/example/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/Recursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,57 +44,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.单一test.executor": "Run",
-    "Application.双向表.test.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/String/src/Main.java",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.ChainTest.executor": "Run",
-    "应用程序.HuffmanTree.executor": "Run",
-    "应用程序.Iteration.executor": "Run",
-    "应用程序.KMP.Main.executor": "Run",
-    "应用程序.KMP.executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.PrintTreenode.executor": "Debug",
-    "应用程序.Test.executor": "Run",
-    "应用程序.Tree.executor": "Run",
-    "应用程序.array.Main.executor": "Run",
-    "应用程序.array.Test.executor": "Run",
-    "应用程序.fuben.executor": "Run",
-    "应用程序.link.Test.executor": "Run",
-    "应用程序.merge合并数组.Main.executor": "Run",
-    "应用程序.org.example.Main.executor": "Run",
-    "应用程序.reserve链表.Main.executor": "Run",
-    "应用程序.test.executor": "Run",
-    "应用程序.xunxubiao_泛型.Test.executor": "Run",
-    "应用程序.实现.Test.executor": "Run",
-    "应用程序.希尔排序.executor": "Run",
-    "应用程序.归并排序.executor": "Run",
-    "应用程序.插入排序.executor": "Run",
-    "应用程序.选择排序.executor": "Run",
-    "应用程序.链表.Main.executor": "Run",
-    "应用程序.链表.Test.executor": "Run",
-    "应用程序.链表sentinel.Test.executor": "Run",
-    "应用程序.顺序表泛型.test.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.单一test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/javacode/数据结构&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/javacode/数据结构/String/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.HuffmanTree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Iteration.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.PrintTreenode.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Tree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.fuben.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.link.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.merge合并数组.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.reserve链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.实现.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.希尔排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.归并排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.插入排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.选择排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\a.maven-java\java_base\数据结构\heap\src\main\resources" />
@@ -315,6 +308,7 @@
       <workItem from="1762609624897" duration="2000" />
       <workItem from="1762669277725" duration="8249000" />
       <workItem from="1762685480926" duration="5629000" />
+      <workItem from="1762748276982" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -500,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762685391087</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="pai">
+      <option name="closed" value="true" />
+      <created>1762748289956</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1762748289956</updated>
+    </task>
+    <task id="LOCAL-00025" summary="pai">
+      <option name="closed" value="true" />
+      <created>1762748313297</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1762748313297</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
