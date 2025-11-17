@@ -2,24 +2,22 @@ package array;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
-public class Ding {
+public class Ver {
     String name;
     ArrayList<Edge> edges;
     private boolean visited;
 
-    public Ding() {
+    public Ver() {
         System.out.println("Ding无参构造");
         this.edges = new ArrayList<>(); // 自动初始化
     }
-    public Ding(String name) {
+    public Ver(String name) {
         this.name = name;
         this.edges = new ArrayList<>(); // 自动初始化
     }
-
-    public void printEdges1(Ding a) {
+    //深度查询
+    public static void printEdges1(Ver a) {
         a.visited = true;
         System.out.println(a.name);
         for (Edge edge : a.edges) {
@@ -28,12 +26,13 @@ public class Ding {
             }
         }
     }
-    public void printEdges2(Ding a) {
-        ArrayDeque<Ding> queue = new ArrayDeque<>();
+    //广度查询
+    public static void printEdges2(Ver a) {
+        ArrayDeque<Ver> queue = new ArrayDeque<>();
         queue.offer(a);
         a.visited = true;
         while (!queue.isEmpty()) {
-           Ding top = queue.poll();
+           Ver top = queue.poll();
            System.out.println(top.name);
            for (Edge edge : top.edges) {
                if (!edge.next.visited) {

@@ -1,14 +1,14 @@
 package array;
 
 public class Edge {
-    Ding next;
+    Ver next;
     int weight;
-    public Edge(Ding next, int weight) {
+    public Edge(Ver next, int weight) {
         this.next = next;
         this.weight = weight;
     }
 
-    public Edge(Ding next) {
+    public Edge(Ver next) {
         this.next = next;
         this.weight = 1;
     }

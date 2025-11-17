@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="heap" />
-        <module name="oneObject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oneObject" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
