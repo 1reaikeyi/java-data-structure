@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="pai">
-      <change afterPath="$PROJECT_DIR$/tree/src/哈夫曼树/HuffmanTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_11_9_3_27____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_11_9_下午3_27_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/src/main/java/单例/one.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/src/main/java/单例/单一test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/src/main/java/单例2/OneTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/src/main/java/单例2/one.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/target/classes/单例/one.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/target/classes/单例/单一test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/target/classes/单例2/OneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oneObject/target/classes/单例2/one.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tu/array/Ding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tu/array/Ding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tu/array/HuffmanTree$HuffmanNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tu/array/HuffmanTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tu/array/HuffmanTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/link/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu/src/array/Ding.java" beforeDir="false" afterPath="$PROJECT_DIR$/tu/src/array/Ver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu/src/array/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/tu/src/array/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu/src/array/HuffmanTree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +57,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/AI",
+    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构/tu/src/拓扑排序",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +90,7 @@
     "应用程序.实现.Test.executor": "Run",
     "应用程序.希尔排序.executor": "Run",
     "应用程序.归并排序.executor": "Run",
+    "应用程序.拓扑排序.Main.executor": "Run",
     "应用程序.插入排序.executor": "Run",
     "应用程序.选择排序.executor": "Run",
     "应用程序.链表.Main.executor": "Run",
@@ -120,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\a.maven-java\javacode\数据结构\tu\src\拓扑排序" />
       <recent name="D:\a.maven-java\java_base\数据结构\heap\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -127,20 +109,7 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.array.Main">
-    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d希尔排序.希尔排序" />
-      <module name="pai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="d希尔排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.拓扑排序.Main">
     <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="e归并排序.Iteration" />
       <module name="pai" />
@@ -206,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Main" />
+    <configuration name="拓扑排序.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="拓扑排序.Main" />
       <module name="tu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="哈夫曼树.*" />
+          <option name="PATTERN" value="拓扑排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fuben" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d希尔排序.fuben" />
-      <module name="pai" />
+    <configuration name="array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Main" />
+      <module name="tu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d希尔排序.*" />
+          <option name="PATTERN" value="哈夫曼树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.拓扑排序.Main" />
         <item itemvalue="应用程序.array.Main" />
         <item itemvalue="应用程序.org.example.Main" />
         <item itemvalue="应用程序.Iteration" />
         <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.fuben" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +306,8 @@
       <workItem from="1763203863517" duration="3852000" />
       <workItem from="1763222860729" duration="6000" />
       <workItem from="1763389520015" duration="2363000" />
+      <workItem from="1763392573953" duration="20000" />
+      <workItem from="1763459577282" duration="3442000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -546,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762748366786</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="pai">
+      <option name="closed" value="true" />
+      <created>1763392581268</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1763392581268</updated>
+    </task>
+    <task id="LOCAL-00028" summary="pai">
+      <option name="closed" value="true" />
+      <created>1763392588545</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1763392588545</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
