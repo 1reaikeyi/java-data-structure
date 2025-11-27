@@ -1,10 +1,10 @@
-package array;
+package 图;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 
 public class Ver {
-    String name;
+    public String name;
     ArrayList<Edge> edges;
     private boolean visited;
 
@@ -32,7 +32,8 @@ public class Ver {
         queue.offer(a);
         a.visited = true;
         while (!queue.isEmpty()) {
-           Ver top = queue.poll();
+           Ver top = queue.peek();
+           queue.pop();
            System.out.println(top.name);
            for (Edge edge : top.edges) {
                if (!edge.next.visited) {

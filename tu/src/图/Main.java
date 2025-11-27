@@ -1,4 +1,4 @@
-package array;
+package 图;
 
 public class Main {
     /**
@@ -25,7 +25,7 @@ public class Main {
         c.edges.add(new Edge(f, 1));
         d.edges.add(new Edge(f, 1));
         e.edges.add(new Edge(f, 1));
-        Ver.printEdges1(a);
+//        Ver.printEdges1(a);
         Ver.printEdges2(a);
     }
 }

@@ -1,6 +1,5 @@
-package 拓扑排序;
+package 最短路径;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 
 public class Ver {
@@ -11,6 +10,12 @@ public class Ver {
     int state;
     // 入度
     int inDegree;
+    //距离
+    int distance;
+    //前驱
+    Ver pre;
+    //无穷大
+    static final int INF = 0x3f3f3f3f;
 
     int count = 0;
     public Ver() {

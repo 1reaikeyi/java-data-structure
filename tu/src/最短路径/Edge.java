@@ -1,8 +1,10 @@
-package array;
+package 最短路径;
 
 public class Edge {
     Ver next;
     int weight;
+
+
     public Edge(Ver next, int weight) {
         this.next = next;
         this.weight = weight;

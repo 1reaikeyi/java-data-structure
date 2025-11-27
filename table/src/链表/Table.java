@@ -92,7 +92,6 @@ public class Table {
         if(index == 0){
             pushHead(key);
         }
-
         Node prevalue = findIndex(index - 1);
         if (prevalue == null) {
             throw new RuntimeException(String.format("index:%d不合法", index));
