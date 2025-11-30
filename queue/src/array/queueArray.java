@@ -31,7 +31,7 @@ public class queueArray<E> implements Queue<E>{
     }
 
     @Override
-    public E pull() {
+    public E pop() {
         if(isEmpty()){
             return null;
         }

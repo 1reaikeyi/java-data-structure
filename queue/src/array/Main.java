@@ -9,8 +9,8 @@ public class Main {
         queue.offer("元素4");
         queue.printAll();
         System.out.println(queue.peek());
-        queue.pull();
-        queue.pull();
+        queue.pop();
+        queue.pop();
         queue.printAll();
     }
 }

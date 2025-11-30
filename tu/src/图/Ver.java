@@ -20,11 +20,17 @@ public class Ver {
     public static void printEdges1(Ver a) {
         a.visited = true;
         System.out.println(a.name);
-        for (Edge edge : a.edges) {
-            if (!edge.next.visited) {
-                printEdges1(edge.next);
+        for (int i = 0; i < a.edges.size(); i++){
+            Edge ver = a.edges.get(i);
+            if (!ver.next.visited) {
+                printEdges1(ver.next);
             }
         }
+//        for (Edge ver : a.edges) {
+//            if (!ver.next.visited) {
+//                printEdges1(ver.next);
+//            }
+//        }
     }
     //广度查询
     public static void printEdges2(Ver a) {

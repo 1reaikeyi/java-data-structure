@@ -1,4 +1,4 @@
-Collection
+Collection接口体系
 ├─ List（有序、可重复）
 │  ├─ ArrayList（数组实现，随机访问高效）
 │  └─ LinkedList（链表实现，增删首尾高效）
@@ -12,7 +12,11 @@ Collection
 │  ├─ LinkedList（链表实现的普通队列）
 │  ├─ ArrayDeque（数组实现的双端队列，高效）
 │  └─ PriorityQueue（优先级队列，按优先级出队）
-│
 └─ Stack（栈，LIFO，后进先出）
-   ├─ Stack（传统栈类，继承自Vector，线程安全但低效）
-   └─ ArrayDeque（推荐，通过双端队列的push/pop实现栈功能，高效）
+   └─ ArrayDeque（通过双端队列的push/pop实现栈功能，高效）
+
+Map接口体系
+├─ HashMap - 哈希表实现，键值对存储
+├─ LinkedHashMap - 哈希表+链表，保持插入顺序
+├─ TreeMap - 红黑树实现，按键排序
+└─ ConcurrentHashMap - 并发安全的哈希表
