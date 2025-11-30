@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="修改">
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/queue/array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/queue/array/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/priority/Priority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/priority/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/experice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/reserve链表/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/reserve链表/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/Iteration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/String/src/Main.java",
+    "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/max/src/Main.java",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -125,13 +123,13 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="heap" />
+  <component name="RunManager" selected="应用程序.Iteration">
+    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="e归并排序.Iteration" />
+      <module name="pai" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="e归并排序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nextarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KMP.Nextarray" />
-      <module name="String" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="heap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KMP.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Main" />
-      <module name="tu" />
+    <configuration name="merge合并数组.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="merge合并数组.Main" />
+      <module name="experice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="哈夫曼树.*" />
+          <option name="PATTERN" value="merge合并数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Iteration" />
+        <item itemvalue="应用程序.merge合并数组.Main" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.优先队列.有序.Test" />
-        <item itemvalue="应用程序.Nextarray" />
-        <item itemvalue="应用程序.array.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +306,7 @@
       <workItem from="1764389521299" duration="1957000" />
       <workItem from="1764422480080" duration="604000" />
       <workItem from="1764481727853" duration="37000" />
-      <workItem from="1764481808201" duration="19663000" />
+      <workItem from="1764481808201" duration="20065000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -558,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764488547012</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="修改">
+      <option name="closed" value="true" />
+      <created>1764509365086</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1764509365086</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

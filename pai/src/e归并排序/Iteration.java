@@ -44,28 +44,28 @@ public class Iteration {
     }
 
     // 合并逻辑（你已实现，无需修改，仅保留注释说明）
-    public static void merge(int[] a1, int x, int xend, int y, int yend, int[] a2) {
+    public static void merge(int[] a1, int x, int xend, int y, int yend, int[] temp) {
         int start = x; // 保存原始左起始索引（避免x被修改后影响复制）
         int k = start; // 辅助数组的写入指针
 
         // 1. 合并两个有序子数组到辅助数组a2
         while (x <= xend && y <= yend) {
-            a2[k++] = (a1[x] <= a1[y]) ? a1[x++] : a1[y++];
+            temp[k++] = (a1[x] <= a1[y]) ? a1[x++] : a1[y++];
         }
 
         // 2. 复制左子数组剩余元素
         while (x <= xend) {
-            a2[k++] = a1[x++];
+            temp[k++] = a1[x++];
         }
 
         // 3. 复制右子数组剩余元素
         while (y <= yend) {
-            a2[k++] = a1[y++];
+            temp[k++] = a1[y++];
         }
 
         // 4. 将合并结果从a2复制回原数组a1
         for (k = start; k <= yend; k++) {
-            a1[k] = a2[k];
+            a1[k] = temp[k];
         }
 
         // 打印合并结果

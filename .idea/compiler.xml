@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="heap" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="heap" target="23" />
       <module name="oneObject" target="23" />
     </bytecodeTargetLevel>
   </component>
