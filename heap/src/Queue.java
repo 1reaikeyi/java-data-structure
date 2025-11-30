@@ -1,5 +1,3 @@
-package org.example;
-
 public interface Queue{
     //向队尾中添加元素
     boolean offer(int value);

@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="pai">
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/array/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/array/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/array/queueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/queue/src/array/queueArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tu/src/图/Ver.java" beforeDir="false" afterPath="$PROJECT_DIR$/tu/src/图/Ver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/target/classes/org/example/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/queue/array/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/queue/array/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/queue/array/queueArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/priority/Priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue/src/priority/Queue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -51,91 +56,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.单一test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/javacode/AI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/javacode/数据结构/String/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.HuffmanTree.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Iteration.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.KMP.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.KMP.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Nextarray.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.PrintTreenode.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Tree.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.array.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.array.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.fuben.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.link.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.merge合并数组.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.org.example.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.reserve链表.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.实现.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.希尔排序.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.归并排序.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.拓扑排序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.插入排序.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.选择排序.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.单一test.executor": "Run",
+    "Application.双向表.test.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构/queue/src/优先队列/B",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/String/src/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ChainTest.executor": "Run",
+    "应用程序.HuffmanTree.executor": "Run",
+    "应用程序.Iteration.executor": "Run",
+    "应用程序.KMP.Main.executor": "Run",
+    "应用程序.KMP.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Nextarray.executor": "Run",
+    "应用程序.PrintTreenode.executor": "Debug",
+    "应用程序.Test.executor": "Run",
+    "应用程序.Tree.executor": "Run",
+    "应用程序.array.Main.executor": "Run",
+    "应用程序.array.Test.executor": "Run",
+    "应用程序.fuben.executor": "Run",
+    "应用程序.link.Test.executor": "Run",
+    "应用程序.merge合并数组.Main.executor": "Run",
+    "应用程序.org.example.Main.executor": "Run",
+    "应用程序.reserve链表.Main.executor": "Run",
+    "应用程序.test.executor": "Run",
+    "应用程序.xunxubiao_泛型.Test.executor": "Run",
+    "应用程序.优先队列.B.Test.executor": "Run",
+    "应用程序.优先队列.有序.Test.executor": "Run",
+    "应用程序.实现.Test.executor": "Run",
+    "应用程序.希尔排序.executor": "Run",
+    "应用程序.归并排序.executor": "Run",
+    "应用程序.拓扑排序.Main.executor": "Run",
+    "应用程序.插入排序.executor": "Run",
+    "应用程序.选择排序.executor": "Run",
+    "应用程序.链表.Main.executor": "Run",
+    "应用程序.链表.Test.executor": "Run",
+    "应用程序.链表sentinel.Test.executor": "Run",
+    "应用程序.顺序表泛型.test.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\a.maven-java\javacode\数据结构\queue\src\优先队列\B" />
       <recent name="D:\a.maven-java\javacode\数据结构\tu\src\最短路径" />
       <recent name="D:\a.maven-java\javacode\数据结构\tu\src\拓扑排序" />
       <recent name="D:\a.maven-java\java_base\数据结构\heap\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="优先队列.B" />
       <recent name="priority" />
       <recent name="org.example" />
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Nextarray">
-    <configuration name="希尔排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="d希尔排序.希尔排序" />
-      <module name="pai" />
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="heap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="d希尔排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e归并排序.Iteration" />
-      <module name="pai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e归并排序.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,6 +152,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="优先队列.无序.Test" />
+      <module name="queue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="优先队列.无序.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="b选择排序.选择排序" />
       <module name="pai" />
@@ -169,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="拓扑排序.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="拓扑排序.Main" />
-      <module name="tu" />
+    <configuration name="优先队列.有序.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="优先队列.有序.Test" />
+      <module name="queue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="拓扑排序.*" />
+          <option name="PATTERN" value="优先队列.有序.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,26 +204,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="heap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.优先队列.有序.Test" />
         <item itemvalue="应用程序.Nextarray" />
         <item itemvalue="应用程序.array.Main" />
-        <item itemvalue="应用程序.拓扑排序.Main" />
-        <item itemvalue="应用程序.org.example.Main" />
-        <item itemvalue="应用程序.Iteration" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +308,7 @@
       <workItem from="1764389521299" duration="1957000" />
       <workItem from="1764422480080" duration="604000" />
       <workItem from="1764481727853" duration="37000" />
-      <workItem from="1764481808201" duration="4095000" />
+      <workItem from="1764481808201" duration="19663000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -554,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764256626133</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="修改">
+      <option name="closed" value="true" />
+      <created>1764488547012</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1764488547012</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +585,8 @@
     <MESSAGE value="加入kmp" />
     <MESSAGE value="加入tree" />
     <MESSAGE value="pai" />
-    <option name="LAST_COMMIT_MESSAGE" value="pai" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">

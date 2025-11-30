@@ -1,5 +1,3 @@
-package org.example;
-
 public class MaxHeap implements Queue{
     int[] array;
     int size ;
