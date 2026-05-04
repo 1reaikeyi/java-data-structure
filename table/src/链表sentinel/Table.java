@@ -22,7 +22,8 @@ public class Table {
         return head.next == null; // 检查是否为空时看哨兵节点的next是否为null
     }
     public void addhead(int value){
-        Node newNode = new Node(value,head.next);
+        Node newNode = new Node(value,null);
+        newNode.next = head.next;
         head.next = newNode;
     }
     public void printAll(){

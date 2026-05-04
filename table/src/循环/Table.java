@@ -1,4 +1,4 @@
-package 双向表sentinel;
+package 循环;
 
 public class Table {
     private static class Node{

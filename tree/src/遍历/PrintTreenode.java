@@ -21,32 +21,6 @@ public class PrintTreenode {
          *       /     /
          *      6     7    // 第4层
          */
-        /**
-         * 后序
-         * to2
-         * to1
-         * 2
-         */
-        /**
-         * 中序
-         * to1,to2,to4,to6
-         * to3
-         * to5,to7
-         *
-         * 2,6,4,1,3,5,7
-         *
-         */
-        /**
-         * 前序
-         * to1
-         * to2
-         * to4
-         * to6
-         * to3
-         * to5
-         * to7
-         * 1,2,4,6,3,5,7
-         */
        printPreOrder(tree);
         System.out.println("####################");
 

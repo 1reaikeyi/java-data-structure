@@ -25,7 +25,8 @@ public class Table {
             head = new Node(value,null);
             return;
         }
-        Node newNode = new Node(value,head);
+        Node newNode = new Node(value,null);
+        newNode.next = head;
         head = newNode;
     }
 

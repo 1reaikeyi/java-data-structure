@@ -15,8 +15,8 @@ public class Table {
     private Node head;
     private Node tail;
     public Table() {
-        head = new Node(null,10000,null);
-        tail = new Node(null,11111,null);
+        head = new Node(null,10000,tail);
+        tail = new Node(head,11111,null);
         head.next = tail;
         tail.pre = head;
     }

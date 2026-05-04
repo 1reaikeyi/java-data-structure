@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="修改">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/experice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/merge合并数组/Merge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/reserve链表/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experice/src/reserve链表/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/reserve链表/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/pai/src/e归并排序/Iteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/String/KMP/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/String/KMP/KMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tree/link/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree$HuffmanNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree$HuffmanNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/双向表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/循环/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/循环/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/哈夫曼树/HuffmanTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/哈夫曼树/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/哈夫曼树/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/src/遍历/PrintTreenode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/遍历/PrintTreenode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,27 +72,30 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构/queue/src/优先队列/B",
+    "last_opened_file_path": "D:/a.maven-java/javacode/Mybatis",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/max/src/Main.java",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "项目",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true",
     "应用程序.ChainTest.executor": "Run",
     "应用程序.HuffmanTree.executor": "Run",
     "应用程序.Iteration.executor": "Run",
     "应用程序.KMP.Main.executor": "Run",
     "应用程序.KMP.executor": "Run",
+    "应用程序.Main (1).executor": "Run",
     "应用程序.Main.executor": "Run",
     "应用程序.Nextarray.executor": "Run",
     "应用程序.PrintTreenode.executor": "Debug",
     "应用程序.Test.executor": "Run",
+    "应用程序.Tree (1).executor": "Run",
+    "应用程序.Tree (2).executor": "Run",
     "应用程序.Tree.executor": "Run",
     "应用程序.array.Main.executor": "Run",
     "应用程序.array.Test.executor": "Run",
@@ -123,26 +134,20 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Iteration">
-    <configuration name="Iteration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="e归并排序.Iteration" />
-      <module name="pai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="e归并排序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.Tree (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="heap" />
+      <module name="table" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
+      <module name="tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="哈夫曼树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="优先队列.无序.Test" />
-      <module name="queue" />
+    <configuration name="Tree (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
+      <module name="tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="优先队列.无序.*" />
+          <option name="PATTERN" value="哈夫曼树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b选择排序.选择排序" />
-      <module name="pai" />
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
+      <module name="tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="b选择排序.*" />
+          <option name="PATTERN" value="哈夫曼树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,25 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="优先队列.有序.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="优先队列.有序.Test" />
-      <module name="queue" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="双向表.test" />
+      <module name="table" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="优先队列.有序.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="merge合并数组.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="merge合并数组.Main" />
-      <module name="experice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="merge合并数组.*" />
+          <option name="PATTERN" value="双向表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +196,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Iteration" />
-        <item itemvalue="应用程序.merge合并数组.Main" />
-        <item itemvalue="应用程序.Main" />
-        <item itemvalue="应用程序.Test" />
-        <item itemvalue="应用程序.优先队列.有序.Test" />
+        <item itemvalue="应用程序.Tree (2)" />
+        <item itemvalue="应用程序.Tree" />
+        <item itemvalue="应用程序.Tree (1)" />
+        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.Main (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -306,7 +298,17 @@
       <workItem from="1764389521299" duration="1957000" />
       <workItem from="1764422480080" duration="604000" />
       <workItem from="1764481727853" duration="37000" />
-      <workItem from="1764481808201" duration="20065000" />
+      <workItem from="1764481808201" duration="20231000" />
+      <workItem from="1764580006912" duration="4314000" />
+      <workItem from="1764595966686" duration="1934000" />
+      <workItem from="1764646606358" duration="1873000" />
+      <workItem from="1765170165116" duration="63000" />
+      <workItem from="1765170244424" duration="124000" />
+      <workItem from="1765207019052" duration="17000" />
+      <workItem from="1765294208345" duration="45000" />
+      <workItem from="1765373542670" duration="47000" />
+      <workItem from="1765373596834" duration="117000" />
+      <workItem from="1765376995438" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -564,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764509365086</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="修改">
+      <option name="closed" value="true" />
+      <created>1764509679180</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1764509679180</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
