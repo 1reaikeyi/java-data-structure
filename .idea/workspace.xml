@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="修改">
-      <change beforePath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MarsCodeWorkspaceAppSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="开始接入github,迁出gitee">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/src/KMP/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/String/KMP/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/String/KMP/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tree/link/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree$HuffmanNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree$HuffmanNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tree/哈夫曼树/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/双向表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/双向表/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/循环/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/双向表sentinel/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/循环/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/哈夫曼树/HuffmanTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/哈夫曼树/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/哈夫曼树/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/src/遍历/PrintTreenode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tree/src/遍历/PrintTreenode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +54,9 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/Mybatis",
+    "last_opened_file_path": "D:/a.maven-java/javacode/设计模式",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,6 +106,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\a.maven-java\javacode\数据结构" />
       <recent name="D:\a.maven-java\javacode\数据结构\queue\src\优先队列\B" />
       <recent name="D:\a.maven-java\javacode\数据结构\tu\src\最短路径" />
       <recent name="D:\a.maven-java\javacode\数据结构\tu\src\拓扑排序" />
@@ -207,8 +192,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -309,6 +294,9 @@
       <workItem from="1765373542670" duration="47000" />
       <workItem from="1765373596834" duration="117000" />
       <workItem from="1765376995438" duration="11000" />
+      <workItem from="1777890901750" duration="317000" />
+      <workItem from="1777891877287" duration="17000" />
+      <workItem from="1778307844059" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -574,7 +562,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764509679180</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="开始接入github,迁出gitee">
+      <option name="closed" value="true" />
+      <created>1777891179880</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1777891179880</updated>
+    </task>
+    <task id="LOCAL-00035" summary="开始接入github,迁出gitee">
+      <option name="closed" value="true" />
+      <created>1777891209993</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1777891209993</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +606,8 @@
     <MESSAGE value="加入tree" />
     <MESSAGE value="pai" />
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="开始接入github,迁出gitee" />
+    <option name="LAST_COMMIT_MESSAGE" value="开始接入github,迁出gitee" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
