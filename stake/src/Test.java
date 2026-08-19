@@ -1,10 +1,8 @@
-package array;
-
 import java.util.Iterator;
 
 public class Test {
     public static void main(String[] args) {
-        SqArray<String> stake = new SqArray<>(6);
+        StackArray<String> stake = new StackArray<>(6);
         stake.push("元素1");
         stake.push("元素2");
         stake.push("元素3");

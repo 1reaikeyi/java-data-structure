@@ -1,16 +1,13 @@
-package array;
-
 import java.util.Iterator;
-import java.util.function.Consumer;
 
-public class SqArray<T> implements Stack<T>,Iterable<T> {
+public class StackArray<T> implements Stack<T>,Iterable<T> {
     private T[] data;
     private int top = 0;
 
-    public SqArray() {
+    public StackArray() {
     }
 
-    public SqArray(int capacity) {
+    public StackArray(int capacity) {
         this.data = (T[]) new Object[capacity];
     }
 
@@ -23,9 +20,6 @@ public class SqArray<T> implements Stack<T>,Iterable<T> {
     public boolean isFull() {
         return top == data.length;
     }
-    //底--------------顶
-    // 0  1  2  3  4  5
-    //   top=(0+1)
 
     @Override
     public boolean push(T value) {
@@ -33,7 +27,7 @@ public class SqArray<T> implements Stack<T>,Iterable<T> {
             return false;
         }
         data[top++] = value;
-        return true;  // 修复：入栈成功应返回 true
+        return true;
     }
 
     @Override

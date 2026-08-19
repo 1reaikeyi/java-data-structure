@@ -1,5 +1,3 @@
-package link;
-
 public interface Stack<E>{
     public abstract boolean isEmpty();
     public abstract boolean isFull();
