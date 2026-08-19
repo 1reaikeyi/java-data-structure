@@ -15,60 +15,61 @@ public class Table {
     }
     private Node head = new Node(10000,null);
     public void toClear(){
-        head.next = null; // 清空链表只需将哨兵节点的next指向null
+        // 清空链表只需将哨兵节点的next指向null
+        head.next = null;
     }
 
     public boolean isClear(){
-        return head.next == null; // 检查是否为空时看哨兵节点的next是否为null
+        // 检查是否为空时看哨兵节点的next是否为null
+        return head.next == null;
     }
-    public void addhead(int value){
+    public boolean pushHead(int value){
         Node newNode = new Node(value,null);
         newNode.next = head.next;
         head.next = newNode;
+        return true;
     }
-    public void printAll(){
-        Node cur = head.next;
-        while(cur != null){
-            System.out.print(cur.value);
-            System.out.print("\t");
-            cur = cur.next;
-        }
-        System.out.println();
-        System.out.println("####################");
-    }
+
     public Node findIndex(int index) {
         int a = -1;
-        // 从第一个数据节点开始遍历
-        for (Node cur = head; cur != null; cur = cur.next) {
+        for (Node cur = head; cur != null; a++,cur = cur.next) {
             if (a == index) {
                 return cur;
             }
-            a++;
         }
-        System.out.println("索引范围0到"+a+"\n");
         return null;
     }
-    public void add(int x,int value){
-        Node pre = findIndex(x-1);
+
+    public boolean insert(int index,int value){
+        Node pre = findIndex(index - 1);
         if(pre == null){
-            throw new RuntimeException(String.format("index:%d不合法", x));
+            throw new RuntimeException(index+"越界");
         }
         Node newNode = new Node(value,pre.next);
         pre.next = newNode;
-
+        return true;
     }
-    public void del(int x){
-        Node pre = findIndex(x-1);
+    public boolean delete(int index){
+        Node pre = findIndex(index - 1);
         if(pre == null){
-            throw new RuntimeException(String.format("index:%d不合法", x));
+            throw new RuntimeException(index+"越界");
         }
-        /**
-         *      pre  cur next
-         *      1    2   3
-         *      1    3
-         *      pre.next = pre.next.next
-         */
-        pre.next = pre.next.next;
+        Node remove = pre.next;
+        pre.next = remove.next;
+        return true;
     }
-
+    public void printNode1(){
+        Node cur = head.next;
+        while(cur != null){
+            System.out.println(cur.value);
+            cur = cur.next;
+        }
+        System.out.println("--- end");
+    }
+    public void printNode2(){
+       for(Node cur = head.next; cur != null; cur = cur.next){
+           System.out.println(cur.value);
+       }
+        System.out.println("---end");
+    }
 }

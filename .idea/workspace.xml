@@ -4,8 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="开始接入github,迁出gitee">
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入链表的insert(int index,int key)和delete(int index)">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/String.iml" beforeDir="false" afterPath="$PROJECT_DIR$/string/string.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/KMP/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/string/src/KMP/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/src/KMP/Nextarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/string/src/KMP/Nextarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/src/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/src/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/reserve链表/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/reserve链表/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/双向表/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/循环/Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/循环/Table$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/循环/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/循环/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/循环/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/循环/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表/Table$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表sentinel/Table$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表sentinel/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/链表sentinel/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/链表sentinel/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/顺序表/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/table/顺序表/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/table/顺序表泛型/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/pai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sort/sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/O(n).txt" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/O(n).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/a冒泡排序/冒泡排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/a冒泡排序/冒泡排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/b选择排序/选择排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/b选择排序/选择排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/c插入排序/插入排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/c插入排序/插入排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/d希尔排序/fuben.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/d希尔排序/希尔排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/d希尔排序/希尔排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/Iteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/e归并排序/Iteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/e归并排序/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/e归并排序/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pai/src/基数排序/BasicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/基数排序/BasicSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/reserve链表/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/reserve链表/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/双向表/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/双向表/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/循环/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/循环/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/链表sentinel/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/链表sentinel/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/顺序表/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/顺序表/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/table/src/顺序表/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/顺序表泛型/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/src/顺序表泛型/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/集合" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +102,14 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.单一test.executor": "Run",
     "Application.双向表.test.executor": "Run",
+    "Application.链表sentinel.Test.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/设计模式",
+    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,6 +154,7 @@
     "应用程序.链表.Main.executor": "Run",
     "应用程序.链表.Test.executor": "Run",
     "应用程序.链表sentinel.Test.executor": "Run",
+    "应用程序.顺序表.test.executor": "Run",
     "应用程序.顺序表泛型.test.executor": "Run"
   }
 }]]></component>
@@ -119,20 +173,13 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Tree (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="应用程序.链表sentinel.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="链表.Test" />
       <module name="table" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
-      <module name="tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="哈夫曼树.*" />
+          <option name="PATTERN" value="链表.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +200,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
-      <module name="tree" />
+    <configuration name="顺序表.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="顺序表.test" />
+      <module name="table" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="哈夫曼树.*" />
+          <option name="PATTERN" value="顺序表.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="链表sentinel.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="链表sentinel.Test" />
+      <module name="table" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="链表sentinel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +227,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="双向表.test" />
+      <option name="MAIN_CLASS_NAME" value="双向.test" />
       <module name="table" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双向表.*" />
+          <option name="PATTERN" value="双向.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Tree (2)" />
-        <item itemvalue="应用程序.Tree" />
-        <item itemvalue="应用程序.Tree (1)" />
+        <item itemvalue="应用程序.链表sentinel.Test" />
         <item itemvalue="应用程序.test" />
-        <item itemvalue="应用程序.Main (1)" />
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.顺序表.test" />
+        <item itemvalue="应用程序.Tree (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +357,10 @@
       <workItem from="1777890901750" duration="317000" />
       <workItem from="1777891877287" duration="17000" />
       <workItem from="1778307844059" duration="36000" />
+      <workItem from="1784365272612" duration="13000" />
+      <workItem from="1787017037544" duration="8922000" />
+      <workItem from="1787039351927" duration="4741000" />
+      <workItem from="1787099378712" duration="2273000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />

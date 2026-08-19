@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 public class Table {
     private static class Node{
-        public int value;
+        int value;
         Node next;
 
         public Node(int value,Node next) {
@@ -20,65 +20,65 @@ public class Table {
     public boolean isEmpty(){
         return head == null;
     }
-    public void pushHead(int value){
+
+    public boolean pushHead(int value){
         if (head == null){
             head = new Node(value,null);
-            return;
+            return true;
         }
         Node newNode = new Node(value,null);
         newNode.next = head;
         head = newNode;
+        return true;
     }
 
-    public void pushBack(int value){
+    public boolean pushBack(int value){
         if(head == null){
             pushHead(value);
+            return true;
         }
         Node p = head;
-        while (p!=null){
+        while (p.next!=null){
             p = p.next;
         }
         p.next = new Node(value,null);
+        return true;
     }
 
-    public Node findIndex(int index){
-        if (head == null){
+    public Node findIndex(int value){
+        if (this.isEmpty()){
             System.out.println("链表为空");
         }
         int a = 0;
-        for (Node p = head;p !=null;a++,p = p.next){
-            if(a == index){
+        for (Node p = head;p.next !=null;a++,p = p.next){
+            if(a == value){
                 return p;
             }
         }
         return null;
     }
 
-    public int get(int index){
-        index -=1;
+    public int getValue(int index){
         Node get = findIndex(index);
         if (get == null) {
-            throw new RuntimeException(String.format("index:%d不合法", index));
+            throw new RuntimeException(index+"越界");
         }
         return get.value;
     }
 
-    public void popHead(){
-        if (head == null){
+    public boolean popHead(){
+        if (this.isEmpty()){
             System.out.println("链表为空");
-            return;
+            return false;
         }
         head = head.next;
+        return true;
     }
 
-    public void popBack(){
-        if (head == null){
+    public boolean popBack(){
+        if (this.isEmpty()){
             System.out.println("链表为空");
-            return;
-        }
-        if (head.next == null) {
-            head = null;
-            return;
+            return false;
         }
         Node cur = head;
         while (cur.next.next != null) {
@@ -86,58 +86,55 @@ public class Table {
         }
         // 移除尾节点
         cur.next = null;
-
+        return true;
     }
 
-    public void insert(int index,int key){
+    public boolean insert(int index,int key){
         if(index == 0){
             pushHead(key);
+            return true;
         }
-        Node prevalue = findIndex(index - 1);
-        if (prevalue == null) {
-            throw new RuntimeException(String.format("index:%d不合法", index));
+        Node node = findIndex(index - 1);
+        if (node == null) {
+            throw new RuntimeException(index+"越界");
         }
-        Node newNode = new Node(key, prevalue.next);
+        Node newnode = new Node(key, node.next);
+        node.next = newnode;
+        return true;
     }
 
-    public void popIndex(int index){
-        if(index == 0||head ==null){
+    public boolean delete(int index){
+        if (this.isEmpty()){
+            System.out.println("链表为空");
+            return false;
+        }
+        if(index == 0){
             popHead();
-            return;
+            return true;
         }
-        Node pre = findIndex(index-1);
-
-        if (pre == null){
-            throw new RuntimeException(String.valueOf(index+"不合法"));
+        Node node = findIndex(index -1);
+        if (node == null){
+            throw new RuntimeException(index+"越界");
         }
-        Node remove = pre.next;
-        pre.next = remove.next;
-
+        Node remove = node.next;
+        node.next = remove.next;
+        return true;
     }
-    public void allPrint1() {
-        Node cur = head;
-        while (cur != null) {
-            System.out.print(cur.value + "\t");
-            cur = cur.next;
-        }
-        System.out.println("---------------\n");
-    }
-
-
-    //for循环
-    public void allPrint2() {
+    public void printNode1() {
         for (Node p = head; p != null; p = p.next) {
             System.out.println(p.value);
         }
+        System.out.println("--- end");
     }
-    //迭代lambal
-    public void allPrint3(Consumer<Integer> data) {
-        Node cur = head;
-        while (cur != null) {
-            data.accept(cur.value);
-            cur = cur.next;
+    public void printNode2() {
+        Node p = head;
+        while (p != null) {
+            System.out.println(p.value);
+            p = p.next;
         }
+        System.out.println("---end");
     }
+
 
 
 }

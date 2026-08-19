@@ -3,16 +3,14 @@ package 链表sentinel;
 public class Test {
     public static void main(String[] args) {
         Table table = new Table();
-        table.addhead(1);
-        table.addhead(2);
-        table.addhead(3);
-        table.add(0,10);
-        table.add(0,10);
-        table.add(0,10);
-        table.printAll();
-        table.del(0);
-        table.printAll();
-
+        table.pushHead(1);
+        table.pushHead(1);
+        table.pushHead(1);
+        table.printNode1();
+        table.insert(0,0);
+        table.insert(1,10);
+        table.insert(2,100);
+        table.printNode2();
     }
 
 }
