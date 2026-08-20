@@ -1,6 +1,4 @@
-package 遍历;
-
-import java.util.Stack;
+package print;
 
 public class PrintTree {
     public static void main(String[] args) {

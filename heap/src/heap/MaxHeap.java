@@ -1,3 +1,5 @@
+package heap;
+
 public class MaxHeap implements Queue{
     int[] array;
     int size ;

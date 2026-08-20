@@ -1,3 +1,5 @@
+package stake;
+
 import java.util.Iterator;
 
 public class Test {

@@ -12,11 +12,11 @@ Collection接口体系
 │  ├─ LinkedHashSet（哈希表+链表，保持插入顺序）
 │  └─ TreeSet（红黑树实现，自然排序/定制排序）
 │
-├─ Queue（队列，FIFO）
+├─ heap.Queue（队列，FIFO）
 │  ├─ LinkedList（链表实现的普通队列）
 │  ├─ ArrayDeque（数组实现的双端队列，高效）
 │  └─ PriorityQueue（优先级队列，按优先级出队）
-└─ Stack（栈，LIFO，后进先出）
+└─ stake.Stack（栈，LIFO，后进先出）
 
 
 Map接口体系

@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="加入链表的insert(int index,int key)和delete(int index)">
-      <change afterPath="$PROJECT_DIR$/string/string.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/table/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/link/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/link/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue/src/link/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/array/SqArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/StackArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/array/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/array/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/stake/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/link/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/link/Stack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stake/src/link/Test.java" beforeDir="false" />
+    <list default="true" id="b06f4350-59d9-4dce-96a8-808df7589867" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hash/src/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash/src/HashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,67 +47,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.单一test.executor": "Run",
-    "Application.双向表.test.executor": "Run",
-    "Application.链表sentinel.Test.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/a.maven-java/javacode/数据结构",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/a.maven-java/javacode/数据结构/max/src/Main.java",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.ChainTest.executor": "Run",
-    "应用程序.HuffmanTree.executor": "Run",
-    "应用程序.Iteration.executor": "Run",
-    "应用程序.KMP.Main.executor": "Run",
-    "应用程序.KMP.executor": "Run",
-    "应用程序.Main (1).executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.Nextarray.executor": "Run",
-    "应用程序.PrintTreenode.executor": "Debug",
-    "应用程序.Test.executor": "Run",
-    "应用程序.Tree (1).executor": "Run",
-    "应用程序.Tree (2).executor": "Run",
-    "应用程序.Tree.executor": "Run",
-    "应用程序.array.Main.executor": "Run",
-    "应用程序.array.Test.executor": "Run",
-    "应用程序.fuben.executor": "Run",
-    "应用程序.link.Test.executor": "Run",
-    "应用程序.merge合并数组.Main.executor": "Run",
-    "应用程序.org.example.Main.executor": "Run",
-    "应用程序.reserve链表.Main.executor": "Run",
-    "应用程序.test.executor": "Run",
-    "应用程序.xunxubiao_泛型.Test.executor": "Run",
-    "应用程序.优先队列.B.Test.executor": "Run",
-    "应用程序.优先队列.有序.Test.executor": "Run",
-    "应用程序.实现.Test.executor": "Run",
-    "应用程序.希尔排序.executor": "Run",
-    "应用程序.归并排序.executor": "Run",
-    "应用程序.拓扑排序.Main.executor": "Run",
-    "应用程序.插入排序.executor": "Run",
-    "应用程序.选择排序.executor": "Run",
-    "应用程序.链表.Main.executor": "Run",
-    "应用程序.链表.Test.executor": "Run",
-    "应用程序.链表sentinel.Test.executor": "Run",
-    "应用程序.顺序表.test.executor": "Run",
-    "应用程序.顺序表泛型.test.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.单一test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.双向表.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/a.maven-java/javacode/数据结构&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/a.maven-java/javacode/数据结构/max/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ChainTest.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.HuffmanTree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Iteration.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.KMP.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Nextarray.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.PrintTreenode.executor&quot;: &quot;Debug&quot;,
+    &quot;应用程序.Test (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Tree (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Tree (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Tree.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.array.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.fuben.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.link.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.merge合并数组.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.reserve链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.xunxubiao_泛型.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.优先队列.B.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.优先队列.有序.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.实现.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.希尔排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.归并排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.拓扑排序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.插入排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.选择排序.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.链表sentinel.Test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.顺序表.test.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.顺序表泛型.test.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\a.maven-java\javacode\数据结构" />
@@ -132,26 +124,20 @@
       <recent name="array" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.链表sentinel.Test">
+  <component name="RunManager" selected="应用程序.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="hash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="链表.Test" />
       <module name="table" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="链表.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="哈夫曼树.Tree" />
-      <module name="tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="哈夫曼树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test (1)" />
         <item itemvalue="应用程序.链表sentinel.Test" />
         <item itemvalue="应用程序.test" />
         <item itemvalue="应用程序.Test" />
         <item itemvalue="应用程序.顺序表.test" />
-        <item itemvalue="应用程序.Tree (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +305,9 @@
       <workItem from="1784365272612" duration="13000" />
       <workItem from="1787017037544" duration="8922000" />
       <workItem from="1787039351927" duration="4741000" />
-      <workItem from="1787099378712" duration="2709000" />
+      <workItem from="1787099378712" duration="3235000" />
+      <workItem from="1787127379910" duration="4682000" />
+      <workItem from="1787188841717" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="加入数据结构">
       <option name="closed" value="true" />
@@ -609,7 +597,15 @@
       <option name="project" value="LOCAL" />
       <updated>1787101914126</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="哨兵应该从-1开始索引，findIndex从0开始">
+      <option name="closed" value="true" />
+      <created>1787102311587</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1787102311587</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +635,8 @@
     <MESSAGE value="修改" />
     <MESSAGE value="开始接入github,迁出gitee" />
     <MESSAGE value="加入链表的insert(int index,int key)和delete(int index)" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入链表的insert(int index,int key)和delete(int index)" />
+    <MESSAGE value="哨兵应该从-1开始索引，findIndex从0开始" />
+    <option name="LAST_COMMIT_MESSAGE" value="哨兵应该从-1开始索引，findIndex从0开始" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">

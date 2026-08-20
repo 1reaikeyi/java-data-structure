@@ -1,4 +1,4 @@
-package 遍历;
+package print;
 
 public class PrintTreenode {
     public static void main(String[] args) {

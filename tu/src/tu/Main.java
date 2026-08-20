@@ -1,4 +1,4 @@
-package 图;
+package tu;
 
 public class Main {
     /**
